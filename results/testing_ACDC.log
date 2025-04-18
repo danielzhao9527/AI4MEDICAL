@@ -1,0 +1,403 @@
+2024-12-12 13:40:59.045 | INFO     | model.vmamba:load_pretrained_ckpt:49 - Loading weights from: /root/autodl-tmp/mcavm_test/model/pretrain/vssm1_tiny_0230s_ckpt_epoch_264.pth
+2024-12-12 13:40:59.164 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: patch_embed.0.weight
+2024-12-12 13:40:59.164 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: patch_embed.0.bias
+2024-12-12 13:40:59.164 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: patch_embed.2.weight
+2024-12-12 13:40:59.164 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: patch_embed.2.bias
+2024-12-12 13:40:59.164 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: patch_embed.5.weight
+2024-12-12 13:40:59.164 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: patch_embed.5.bias
+2024-12-12 13:40:59.165 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: patch_embed.7.weight
+2024-12-12 13:40:59.165 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: patch_embed.7.bias
+2024-12-12 13:40:59.165 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.0.norm.weight
+2024-12-12 13:40:59.165 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.0.norm.bias
+2024-12-12 13:40:59.165 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.0.op.x_proj_weight
+2024-12-12 13:40:59.165 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.0.op.dt_projs_weight
+2024-12-12 13:40:59.165 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.0.op.dt_projs_bias
+2024-12-12 13:40:59.165 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.0.op.A_logs
+2024-12-12 13:40:59.165 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.0.op.Ds
+2024-12-12 13:40:59.166 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.0.op.out_norm.weight
+2024-12-12 13:40:59.166 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.0.op.out_norm.bias
+2024-12-12 13:40:59.166 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.0.op.in_proj.weight
+2024-12-12 13:40:59.166 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.0.op.conv2d.weight
+2024-12-12 13:40:59.166 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.0.op.out_proj.weight
+2024-12-12 13:40:59.166 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.0.norm2.weight
+2024-12-12 13:40:59.166 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.0.norm2.bias
+2024-12-12 13:40:59.166 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.0.mlp.fc1.weight
+2024-12-12 13:40:59.166 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.0.mlp.fc1.bias
+2024-12-12 13:40:59.166 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.0.mlp.fc2.weight
+2024-12-12 13:40:59.167 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.0.mlp.fc2.bias
+2024-12-12 13:40:59.167 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.1.norm.weight
+2024-12-12 13:40:59.167 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.1.norm.bias
+2024-12-12 13:40:59.167 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.1.op.x_proj_weight
+2024-12-12 13:40:59.167 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.1.op.dt_projs_weight
+2024-12-12 13:40:59.167 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.1.op.dt_projs_bias
+2024-12-12 13:40:59.167 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.1.op.A_logs
+2024-12-12 13:40:59.167 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.1.op.Ds
+2024-12-12 13:40:59.167 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.1.op.out_norm.weight
+2024-12-12 13:40:59.167 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.1.op.out_norm.bias
+2024-12-12 13:40:59.168 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.1.op.in_proj.weight
+2024-12-12 13:40:59.168 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.1.op.conv2d.weight
+2024-12-12 13:40:59.168 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.1.op.out_proj.weight
+2024-12-12 13:40:59.168 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.1.norm2.weight
+2024-12-12 13:40:59.168 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.1.norm2.bias
+2024-12-12 13:40:59.168 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.1.mlp.fc1.weight
+2024-12-12 13:40:59.168 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.1.mlp.fc1.bias
+2024-12-12 13:40:59.168 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.1.mlp.fc2.weight
+2024-12-12 13:40:59.168 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.1.mlp.fc2.bias
+2024-12-12 13:40:59.169 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: downsamples.0.1.weight
+2024-12-12 13:40:59.169 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: downsamples.0.1.bias
+2024-12-12 13:40:59.169 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: downsamples.0.3.weight
+2024-12-12 13:40:59.169 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: downsamples.0.3.bias
+2024-12-12 13:40:59.169 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.0.norm.weight
+2024-12-12 13:40:59.169 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.0.norm.bias
+2024-12-12 13:40:59.169 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.0.op.x_proj_weight
+2024-12-12 13:40:59.170 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.0.op.dt_projs_weight
+2024-12-12 13:40:59.170 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.0.op.dt_projs_bias
+2024-12-12 13:40:59.170 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.0.op.A_logs
+2024-12-12 13:40:59.170 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.0.op.Ds
+2024-12-12 13:40:59.170 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.0.op.out_norm.weight
+2024-12-12 13:40:59.170 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.0.op.out_norm.bias
+2024-12-12 13:40:59.170 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.0.op.in_proj.weight
+2024-12-12 13:40:59.170 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.0.op.conv2d.weight
+2024-12-12 13:40:59.170 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.0.op.out_proj.weight
+2024-12-12 13:40:59.170 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.0.norm2.weight
+2024-12-12 13:40:59.171 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.0.norm2.bias
+2024-12-12 13:40:59.171 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.0.mlp.fc1.weight
+2024-12-12 13:40:59.171 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.0.mlp.fc1.bias
+2024-12-12 13:40:59.171 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.0.mlp.fc2.weight
+2024-12-12 13:40:59.171 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.0.mlp.fc2.bias
+2024-12-12 13:40:59.171 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.1.norm.weight
+2024-12-12 13:40:59.171 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.1.norm.bias
+2024-12-12 13:40:59.171 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.1.op.x_proj_weight
+2024-12-12 13:40:59.171 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.1.op.dt_projs_weight
+2024-12-12 13:40:59.171 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.1.op.dt_projs_bias
+2024-12-12 13:40:59.172 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.1.op.A_logs
+2024-12-12 13:40:59.172 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.1.op.Ds
+2024-12-12 13:40:59.172 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.1.op.out_norm.weight
+2024-12-12 13:40:59.172 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.1.op.out_norm.bias
+2024-12-12 13:40:59.172 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.1.op.in_proj.weight
+2024-12-12 13:40:59.172 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.1.op.conv2d.weight
+2024-12-12 13:40:59.172 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.1.op.out_proj.weight
+2024-12-12 13:40:59.172 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.1.norm2.weight
+2024-12-12 13:40:59.172 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.1.norm2.bias
+2024-12-12 13:40:59.173 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.1.mlp.fc1.weight
+2024-12-12 13:40:59.173 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.1.mlp.fc1.bias
+2024-12-12 13:40:59.173 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.1.mlp.fc2.weight
+2024-12-12 13:40:59.173 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.1.mlp.fc2.bias
+2024-12-12 13:40:59.173 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: downsamples.1.1.weight
+2024-12-12 13:40:59.173 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: downsamples.1.1.bias
+2024-12-12 13:40:59.173 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: downsamples.1.3.weight
+2024-12-12 13:40:59.173 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: downsamples.1.3.bias
+2024-12-12 13:40:59.173 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.0.norm.weight
+2024-12-12 13:40:59.173 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.0.norm.bias
+2024-12-12 13:40:59.174 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.0.op.x_proj_weight
+2024-12-12 13:40:59.174 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.0.op.dt_projs_weight
+2024-12-12 13:40:59.174 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.0.op.dt_projs_bias
+2024-12-12 13:40:59.174 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.0.op.A_logs
+2024-12-12 13:40:59.174 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.0.op.Ds
+2024-12-12 13:40:59.174 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.0.op.out_norm.weight
+2024-12-12 13:40:59.174 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.0.op.out_norm.bias
+2024-12-12 13:40:59.174 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.0.op.in_proj.weight
+2024-12-12 13:40:59.174 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.0.op.conv2d.weight
+2024-12-12 13:40:59.174 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.0.op.out_proj.weight
+2024-12-12 13:40:59.175 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.0.norm2.weight
+2024-12-12 13:40:59.175 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.0.norm2.bias
+2024-12-12 13:40:59.175 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.0.mlp.fc1.weight
+2024-12-12 13:40:59.175 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.0.mlp.fc1.bias
+2024-12-12 13:40:59.175 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.0.mlp.fc2.weight
+2024-12-12 13:40:59.175 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.0.mlp.fc2.bias
+2024-12-12 13:40:59.175 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.1.norm.weight
+2024-12-12 13:40:59.175 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.1.norm.bias
+2024-12-12 13:40:59.175 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.1.op.x_proj_weight
+2024-12-12 13:40:59.175 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.1.op.dt_projs_weight
+2024-12-12 13:40:59.176 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.1.op.dt_projs_bias
+2024-12-12 13:40:59.176 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.1.op.A_logs
+2024-12-12 13:40:59.176 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.1.op.Ds
+2024-12-12 13:40:59.176 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.1.op.out_norm.weight
+2024-12-12 13:40:59.176 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.1.op.out_norm.bias
+2024-12-12 13:40:59.176 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.1.op.in_proj.weight
+2024-12-12 13:40:59.176 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.1.op.conv2d.weight
+2024-12-12 13:40:59.176 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.1.op.out_proj.weight
+2024-12-12 13:40:59.176 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.1.norm2.weight
+2024-12-12 13:40:59.177 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.1.norm2.bias
+2024-12-12 13:40:59.177 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.1.mlp.fc1.weight
+2024-12-12 13:40:59.177 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.1.mlp.fc1.bias
+2024-12-12 13:40:59.177 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.1.mlp.fc2.weight
+2024-12-12 13:40:59.177 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.1.mlp.fc2.bias
+2024-12-12 13:40:59.177 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.2.norm.weight
+2024-12-12 13:40:59.177 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.2.norm.bias
+2024-12-12 13:40:59.177 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.2.op.x_proj_weight
+2024-12-12 13:40:59.177 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.2.op.dt_projs_weight
+2024-12-12 13:40:59.177 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.2.op.dt_projs_bias
+2024-12-12 13:40:59.178 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.2.op.A_logs
+2024-12-12 13:40:59.178 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.2.op.Ds
+2024-12-12 13:40:59.178 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.2.op.out_norm.weight
+2024-12-12 13:40:59.178 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.2.op.out_norm.bias
+2024-12-12 13:40:59.178 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.2.op.in_proj.weight
+2024-12-12 13:40:59.178 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.2.op.conv2d.weight
+2024-12-12 13:40:59.178 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.2.op.out_proj.weight
+2024-12-12 13:40:59.178 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.2.norm2.weight
+2024-12-12 13:40:59.178 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.2.norm2.bias
+2024-12-12 13:40:59.179 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.2.mlp.fc1.weight
+2024-12-12 13:40:59.179 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.2.mlp.fc1.bias
+2024-12-12 13:40:59.179 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.2.mlp.fc2.weight
+2024-12-12 13:40:59.179 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.2.mlp.fc2.bias
+2024-12-12 13:40:59.179 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.3.norm.weight
+2024-12-12 13:40:59.179 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.3.norm.bias
+2024-12-12 13:40:59.179 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.3.op.x_proj_weight
+2024-12-12 13:40:59.179 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.3.op.dt_projs_weight
+2024-12-12 13:40:59.179 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.3.op.dt_projs_bias
+2024-12-12 13:40:59.179 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.3.op.A_logs
+2024-12-12 13:40:59.180 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.3.op.Ds
+2024-12-12 13:40:59.180 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.3.op.out_norm.weight
+2024-12-12 13:40:59.180 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.3.op.out_norm.bias
+2024-12-12 13:40:59.180 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.3.op.in_proj.weight
+2024-12-12 13:40:59.180 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.3.op.conv2d.weight
+2024-12-12 13:40:59.180 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.3.op.out_proj.weight
+2024-12-12 13:40:59.180 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.3.norm2.weight
+2024-12-12 13:40:59.180 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.3.norm2.bias
+2024-12-12 13:40:59.180 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.3.mlp.fc1.weight
+2024-12-12 13:40:59.180 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.3.mlp.fc1.bias
+2024-12-12 13:40:59.181 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.3.mlp.fc2.weight
+2024-12-12 13:40:59.298 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.3.mlp.fc2.bias
+2024-12-12 13:40:59.298 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.4.norm.weight
+2024-12-12 13:40:59.298 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.4.norm.bias
+2024-12-12 13:40:59.298 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.4.op.x_proj_weight
+2024-12-12 13:40:59.298 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.4.op.dt_projs_weight
+2024-12-12 13:40:59.298 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.4.op.dt_projs_bias
+2024-12-12 13:40:59.298 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.4.op.A_logs
+2024-12-12 13:40:59.299 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.4.op.Ds
+2024-12-12 13:40:59.299 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.4.op.out_norm.weight
+2024-12-12 13:40:59.299 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.4.op.out_norm.bias
+2024-12-12 13:40:59.299 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.4.op.in_proj.weight
+2024-12-12 13:40:59.299 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.4.op.conv2d.weight
+2024-12-12 13:40:59.299 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.4.op.out_proj.weight
+2024-12-12 13:40:59.299 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.4.norm2.weight
+2024-12-12 13:40:59.299 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.4.norm2.bias
+2024-12-12 13:40:59.299 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.4.mlp.fc1.weight
+2024-12-12 13:40:59.300 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.4.mlp.fc1.bias
+2024-12-12 13:40:59.300 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.4.mlp.fc2.weight
+2024-12-12 13:40:59.300 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.4.mlp.fc2.bias
+2024-12-12 13:40:59.300 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.5.norm.weight
+2024-12-12 13:40:59.300 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.5.norm.bias
+2024-12-12 13:40:59.300 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.5.op.x_proj_weight
+2024-12-12 13:40:59.300 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.5.op.dt_projs_weight
+2024-12-12 13:40:59.300 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.5.op.dt_projs_bias
+2024-12-12 13:40:59.300 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.5.op.A_logs
+2024-12-12 13:40:59.300 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.5.op.Ds
+2024-12-12 13:40:59.301 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.5.op.out_norm.weight
+2024-12-12 13:40:59.301 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.5.op.out_norm.bias
+2024-12-12 13:40:59.301 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.5.op.in_proj.weight
+2024-12-12 13:40:59.301 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.5.op.conv2d.weight
+2024-12-12 13:40:59.301 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.5.op.out_proj.weight
+2024-12-12 13:40:59.301 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.5.norm2.weight
+2024-12-12 13:40:59.301 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.5.norm2.bias
+2024-12-12 13:40:59.301 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.5.mlp.fc1.weight
+2024-12-12 13:40:59.301 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.5.mlp.fc1.bias
+2024-12-12 13:40:59.301 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.5.mlp.fc2.weight
+2024-12-12 13:40:59.302 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.5.mlp.fc2.bias
+2024-12-12 13:40:59.302 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.6.norm.weight
+2024-12-12 13:40:59.302 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.6.norm.bias
+2024-12-12 13:40:59.302 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.6.op.x_proj_weight
+2024-12-12 13:40:59.302 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.6.op.dt_projs_weight
+2024-12-12 13:40:59.302 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.6.op.dt_projs_bias
+2024-12-12 13:40:59.302 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.6.op.A_logs
+2024-12-12 13:40:59.302 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.6.op.Ds
+2024-12-12 13:40:59.302 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.6.op.out_norm.weight
+2024-12-12 13:40:59.303 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.6.op.out_norm.bias
+2024-12-12 13:40:59.303 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.6.op.in_proj.weight
+2024-12-12 13:40:59.303 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.6.op.conv2d.weight
+2024-12-12 13:40:59.303 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.6.op.out_proj.weight
+2024-12-12 13:40:59.303 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.6.norm2.weight
+2024-12-12 13:40:59.303 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.6.norm2.bias
+2024-12-12 13:40:59.303 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.6.mlp.fc1.weight
+2024-12-12 13:40:59.303 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.6.mlp.fc1.bias
+2024-12-12 13:40:59.303 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.6.mlp.fc2.weight
+2024-12-12 13:40:59.303 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.6.mlp.fc2.bias
+2024-12-12 13:40:59.304 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.7.norm.weight
+2024-12-12 13:40:59.304 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.7.norm.bias
+2024-12-12 13:40:59.304 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.7.op.x_proj_weight
+2024-12-12 13:40:59.304 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.7.op.dt_projs_weight
+2024-12-12 13:40:59.304 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.7.op.dt_projs_bias
+2024-12-12 13:40:59.304 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.7.op.A_logs
+2024-12-12 13:40:59.304 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.7.op.Ds
+2024-12-12 13:40:59.304 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.7.op.out_norm.weight
+2024-12-12 13:40:59.304 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.7.op.out_norm.bias
+2024-12-12 13:40:59.305 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.7.op.in_proj.weight
+2024-12-12 13:40:59.305 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.7.op.conv2d.weight
+2024-12-12 13:40:59.305 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.7.op.out_proj.weight
+2024-12-12 13:40:59.305 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.7.norm2.weight
+2024-12-12 13:40:59.305 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.7.norm2.bias
+2024-12-12 13:40:59.305 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.7.mlp.fc1.weight
+2024-12-12 13:40:59.305 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.7.mlp.fc1.bias
+2024-12-12 13:40:59.305 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.7.mlp.fc2.weight
+2024-12-12 13:40:59.305 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.7.mlp.fc2.bias
+2024-12-12 13:40:59.305 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: downsamples.2.1.weight
+2024-12-12 13:40:59.306 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: downsamples.2.1.bias
+2024-12-12 13:40:59.306 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: downsamples.2.3.weight
+2024-12-12 13:40:59.306 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: downsamples.2.3.bias
+2024-12-12 13:40:59.306 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.0.norm.weight
+2024-12-12 13:40:59.306 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.0.norm.bias
+2024-12-12 13:40:59.306 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.0.op.x_proj_weight
+2024-12-12 13:40:59.306 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.0.op.dt_projs_weight
+2024-12-12 13:40:59.306 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.0.op.dt_projs_bias
+2024-12-12 13:40:59.306 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.0.op.A_logs
+2024-12-12 13:40:59.307 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.0.op.Ds
+2024-12-12 13:40:59.307 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.0.op.out_norm.weight
+2024-12-12 13:40:59.307 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.0.op.out_norm.bias
+2024-12-12 13:40:59.307 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.0.op.in_proj.weight
+2024-12-12 13:40:59.307 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.0.op.conv2d.weight
+2024-12-12 13:40:59.307 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.0.op.out_proj.weight
+2024-12-12 13:40:59.307 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.0.norm2.weight
+2024-12-12 13:40:59.307 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.0.norm2.bias
+2024-12-12 13:40:59.307 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.0.mlp.fc1.weight
+2024-12-12 13:40:59.307 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.0.mlp.fc1.bias
+2024-12-12 13:40:59.308 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.0.mlp.fc2.weight
+2024-12-12 13:40:59.308 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.0.mlp.fc2.bias
+2024-12-12 13:40:59.308 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.1.norm.weight
+2024-12-12 13:40:59.308 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.1.norm.bias
+2024-12-12 13:40:59.308 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.1.op.x_proj_weight
+2024-12-12 13:40:59.308 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.1.op.dt_projs_weight
+2024-12-12 13:40:59.308 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.1.op.dt_projs_bias
+2024-12-12 13:40:59.308 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.1.op.A_logs
+2024-12-12 13:40:59.308 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.1.op.Ds
+2024-12-12 13:40:59.309 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.1.op.out_norm.weight
+2024-12-12 13:40:59.309 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.1.op.out_norm.bias
+2024-12-12 13:40:59.309 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.1.op.in_proj.weight
+2024-12-12 13:40:59.309 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.1.op.conv2d.weight
+2024-12-12 13:40:59.309 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.1.op.out_proj.weight
+2024-12-12 13:40:59.309 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.1.norm2.weight
+2024-12-12 13:40:59.309 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.1.norm2.bias
+2024-12-12 13:40:59.309 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.1.mlp.fc1.weight
+2024-12-12 13:40:59.309 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.1.mlp.fc1.bias
+2024-12-12 13:40:59.309 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.1.mlp.fc2.weight
+2024-12-12 13:40:59.310 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.1.mlp.fc2.bias
+2024-12-12 13:40:59.310 | INFO     | model.vmamba:load_pretrained_ckpt:75 - Passing weights: classifier.norm.weight
+2024-12-12 13:40:59.310 | INFO     | model.vmamba:load_pretrained_ckpt:75 - Passing weights: classifier.norm.bias
+2024-12-12 13:40:59.310 | INFO     | model.vmamba:load_pretrained_ckpt:75 - Passing weights: classifier.head.weight
+2024-12-12 13:40:59.310 | INFO     | model.vmamba:load_pretrained_ckpt:75 - Passing weights: classifier.head.bias
+2024-12-12 13:40:59.752 | INFO     | __main__:get_model:177 - Loaded model checkpoint: log/mcavm-unet-acdc/checkpoints/epoch=239-val_mean_dice=0.9279.ckpt
+2024-12-12 13:40:59.979 | INFO     | __main__:inference:117 - Testing iterations: 40
+2024-12-12 13:40:59.987 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:04.226 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:04.720 | INFO     | __main__:inference:142 - case_name: case_002_volume_ED.npz mean_dice: 0.9350635235063312, mean_hd95: 1.0, mean_jacquard: 0.8796509409792751, mean_asd: 0.2053346916860813
+2024-12-12 13:41:04.726 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:05.144 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:05.630 | INFO     | __main__:inference:142 - case_name: case_002_volume_ES.npz mean_dice: 0.9010099744652976, mean_hd95: 1.0, mean_jacquard: 0.8240139303359452, mean_asd: 0.23610007383520534
+2024-12-12 13:41:05.636 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:06.051 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:06.530 | INFO     | __main__:inference:142 - case_name: case_003_volume_ED.npz mean_dice: 0.9498692596077438, mean_hd95: 1.0, mean_jacquard: 0.9055155455759656, mean_asd: 0.14973941719084108
+2024-12-12 13:41:06.535 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:06.950 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:07.419 | INFO     | __main__:inference:142 - case_name: case_003_volume_ES.npz mean_dice: 0.9503275559767336, mean_hd95: 1.0, mean_jacquard: 0.9060484297052156, mean_asd: 0.15175790363665906
+2024-12-12 13:41:07.432 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:07.849 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:08.332 | INFO     | __main__:inference:142 - case_name: case_008_volume_ED.npz mean_dice: 0.9389129034779451, mean_hd95: 1.0, mean_jacquard: 0.8869457468910467, mean_asd: 0.1765590465799108
+2024-12-12 13:41:08.345 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:08.760 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:09.259 | INFO     | __main__:inference:142 - case_name: case_008_volume_ES.npz mean_dice: 0.9221519658985983, mean_hd95: 1.0, mean_jacquard: 0.85734570590335, mean_asd: 0.22811345757453663
+2024-12-12 13:41:09.271 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:09.695 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:10.200 | INFO     | __main__:inference:142 - case_name: case_009_volume_ED.npz mean_dice: 0.9246114997195414, mean_hd95: 1.1380711874576983, mean_jacquard: 0.86174918001474, mean_asd: 0.2763156380110993
+2024-12-12 13:41:10.212 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:10.630 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:11.124 | INFO     | __main__:inference:142 - case_name: case_009_volume_ES.npz mean_dice: 0.8658405162592469, mean_hd95: 1.4120226591665965, mean_jacquard: 0.7833512194500537, mean_asd: 0.3719377229878502
+2024-12-12 13:41:11.138 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:11.549 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:12.041 | INFO     | __main__:inference:142 - case_name: case_012_volume_ED.npz mean_dice: 0.9382419992414794, mean_hd95: 1.0, mean_jacquard: 0.8856122227377415, mean_asd: 0.1469442018172965
+2024-12-12 13:41:12.054 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:12.465 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:12.944 | INFO     | __main__:inference:142 - case_name: case_012_volume_ES.npz mean_dice: 0.8730953990846507, mean_hd95: 1.4120226591665965, mean_jacquard: 0.7808327020490861, mean_asd: 0.27934233049715623
+2024-12-12 13:41:12.958 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:13.382 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:13.902 | INFO     | __main__:inference:142 - case_name: case_014_volume_ED.npz mean_dice: 0.9171951167579668, mean_hd95: 1.0, mean_jacquard: 0.8504910016878148, mean_asd: 0.1762733035020354
+2024-12-12 13:41:13.914 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:14.340 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:14.829 | INFO     | __main__:inference:142 - case_name: case_014_volume_ES.npz mean_dice: 0.9403413524513371, mean_hd95: 1.0, mean_jacquard: 0.8893743219428086, mean_asd: 0.10554657499131363
+2024-12-12 13:41:14.842 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:15.223 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:15.556 | INFO     | __main__:inference:142 - case_name: case_017_volume_ED.npz mean_dice: 0.9445199292544878, mean_hd95: 1.0, mean_jacquard: 0.8981539055907192, mean_asd: 0.14233826398187535
+2024-12-12 13:41:15.572 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:15.952 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:16.280 | INFO     | __main__:inference:142 - case_name: case_017_volume_ES.npz mean_dice: 0.9491918832669274, mean_hd95: 1.0, mean_jacquard: 0.9049918480240283, mean_asd: 0.14510839669438397
+2024-12-12 13:41:16.291 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:16.636 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:16.901 | INFO     | __main__:inference:142 - case_name: case_024_volume_ED.npz mean_dice: 0.9378442023993091, mean_hd95: 1.0, mean_jacquard: 0.8834284495084148, mean_asd: 0.1647170681693866
+2024-12-12 13:41:16.913 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:17.256 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:17.620 | INFO     | __main__:inference:142 - case_name: case_024_volume_ES.npz mean_dice: 0.9201466509157173, mean_hd95: 1.0, mean_jacquard: 0.8532474665250985, mean_asd: 0.1885883960323493
+2024-12-12 13:41:17.625 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:17.995 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:18.417 | INFO     | __main__:inference:142 - case_name: case_042_volume_ED.npz mean_dice: 0.938944304172414, mean_hd95: 1.0, mean_jacquard: 0.8869658378026367, mean_asd: 0.1684502220596572
+2024-12-12 13:41:18.423 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:18.796 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:19.220 | INFO     | __main__:inference:142 - case_name: case_042_volume_ES.npz mean_dice: 0.9278059066420278, mean_hd95: 1.0, mean_jacquard: 0.8665893673271196, mean_asd: 0.19600181412078288
+2024-12-12 13:41:19.231 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:19.592 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:19.974 | INFO     | __main__:inference:142 - case_name: case_048_volume_ED.npz mean_dice: 0.9225802203238609, mean_hd95: 1.0, mean_jacquard: 0.8577827974312746, mean_asd: 0.20726214745218627
+2024-12-12 13:41:19.986 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:20.344 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:20.723 | INFO     | __main__:inference:142 - case_name: case_048_volume_ES.npz mean_dice: 0.8931027834807983, mean_hd95: 1.1380711874576983, mean_jacquard: 0.8125440186278595, mean_asd: 0.2513993284339698
+2024-12-12 13:41:20.732 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:21.038 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:21.294 | INFO     | __main__:inference:142 - case_name: case_049_volume_ED.npz mean_dice: 0.9341767165109823, mean_hd95: 1.0, mean_jacquard: 0.8780767171142939, mean_asd: 0.1120938235730231
+2024-12-12 13:41:21.304 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:21.612 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:21.848 | INFO     | __main__:inference:142 - case_name: case_049_volume_ES.npz mean_dice: 0.8883292016127827, mean_hd95: 2.3663398378642615, mean_jacquard: 0.806933068478334, mean_asd: 0.30277780876659777
+2024-12-12 13:41:21.858 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:22.150 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:22.395 | INFO     | __main__:inference:142 - case_name: case_053_volume_ED.npz mean_dice: 0.9491703542301693, mean_hd95: 1.0, mean_jacquard: 0.9042064572995493, mean_asd: 0.13023912440326005
+2024-12-12 13:41:22.405 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:22.698 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:22.941 | INFO     | __main__:inference:142 - case_name: case_053_volume_ES.npz mean_dice: 0.9378797595679199, mean_hd95: 1.0, mean_jacquard: 0.8842997481823488, mean_asd: 0.15517719350796552
+2024-12-12 13:41:22.953 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:23.333 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:23.765 | INFO     | __main__:inference:142 - case_name: case_055_volume_ED.npz mean_dice: 0.9271112381407364, mean_hd95: 1.0, mean_jacquard: 0.8654840978948632, mean_asd: 0.22434284174133856
+2024-12-12 13:41:23.778 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:24.162 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:24.576 | INFO     | __main__:inference:142 - case_name: case_055_volume_ES.npz mean_dice: 0.8812573599677777, mean_hd95: 1.4831632475943926, mean_jacquard: 0.7953239616691125, mean_asd: 0.35877371389259394
+2024-12-12 13:41:24.590 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:25.031 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:25.512 | INFO     | __main__:inference:142 - case_name: case_064_volume_ED.npz mean_dice: 0.9568285652421101, mean_hd95: 1.0, mean_jacquard: 0.917857684197252, mean_asd: 0.13572029908553152
+2024-12-12 13:41:25.525 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:25.949 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:26.432 | INFO     | __main__:inference:142 - case_name: case_064_volume_ES.npz mean_dice: 0.939382068571068, mean_hd95: 1.0, mean_jacquard: 0.8857033404590625, mean_asd: 0.19741245135610974
+2024-12-12 13:41:26.446 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:26.874 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:27.346 | INFO     | __main__:inference:142 - case_name: case_067_volume_ED.npz mean_dice: 0.9244466480887018, mean_hd95: 1.0, mean_jacquard: 0.8627180259846355, mean_asd: 0.22782502488350911
+2024-12-12 13:41:27.359 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:27.787 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:28.302 | INFO     | __main__:inference:142 - case_name: case_067_volume_ES.npz mean_dice: 0.9426648898432225, mean_hd95: 1.0, mean_jacquard: 0.8916826506611762, mean_asd: 0.1969427555749488
+2024-12-12 13:41:28.316 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:28.741 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:29.094 | INFO     | __main__:inference:142 - case_name: case_079_volume_ED.npz mean_dice: 0.9640386226042826, mean_hd95: 1.0, mean_jacquard: 0.9308810019153576, mean_asd: 0.09252636447271878
+2024-12-12 13:41:29.107 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:29.511 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:29.851 | INFO     | __main__:inference:142 - case_name: case_079_volume_ES.npz mean_dice: 0.9308650092435918, mean_hd95: 1.0, mean_jacquard: 0.8710837747921292, mean_asd: 0.1882686532930673
+2024-12-12 13:41:29.871 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:30.578 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:31.544 | INFO     | __main__:inference:142 - case_name: case_081_volume_ED.npz mean_dice: 0.9341006122088341, mean_hd95: 1.0, mean_jacquard: 0.8790741096140859, mean_asd: 0.2536373822326845
+2024-12-12 13:41:31.568 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:32.287 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:33.213 | INFO     | __main__:inference:142 - case_name: case_081_volume_ES.npz mean_dice: 0.9381355080282338, mean_hd95: 1.0, mean_jacquard: 0.8838688683900701, mean_asd: 0.2119460107477337
+2024-12-12 13:41:33.232 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:33.892 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:34.750 | INFO     | __main__:inference:142 - case_name: case_088_volume_ED.npz mean_dice: 0.9416387336544026, mean_hd95: 1.0, mean_jacquard: 0.8918616223820268, mean_asd: 0.16010805161651012
+2024-12-12 13:41:34.773 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:35.440 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:36.313 | INFO     | __main__:inference:142 - case_name: case_088_volume_ES.npz mean_dice: 0.9186754850548322, mean_hd95: 1.0, mean_jacquard: 0.8513701662885378, mean_asd: 0.21959563488026132
+2024-12-12 13:41:36.331 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:36.955 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:37.758 | INFO     | __main__:inference:142 - case_name: case_092_volume_ED.npz mean_dice: 0.9383041277292902, mean_hd95: 1.1380711874576983, mean_jacquard: 0.8853074030583951, mean_asd: 0.2666686392936845
+2024-12-12 13:41:37.776 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:38.393 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:39.001 | INFO     | __main__:inference:142 - case_name: case_092_volume_ES.npz mean_dice: 0.9246818025982054, mean_hd95: 1.7387663852446076, mean_jacquard: 0.8603018620774957, mean_asd: 0.388248245708312
+2024-12-12 13:41:39.018 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:39.603 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:40.344 | INFO     | __main__:inference:142 - case_name: case_095_volume_ED.npz mean_dice: 0.9446998965881184, mean_hd95: 1.0, mean_jacquard: 0.8987285767725363, mean_asd: 0.17808726823632004
+2024-12-12 13:41:40.366 | INFO     | __main__:test_single_volume:56 - Predicting...
+2024-12-12 13:41:40.957 | INFO     | __main__:test_single_volume:100 - Evaluating...
+2024-12-12 13:41:41.714 | INFO     | __main__:inference:142 - case_name: case_095_volume_ES.npz mean_dice: 0.9067681746970916, mean_hd95: 1.3333333333333333, mean_jacquard: 0.8301453718544011, mean_asd: 0.35871004042833815
+2024-12-12 13:41:41.715 | INFO     | __main__:inference:151 - class_name: RV mean_dice: 0.9137683223891839, mean_hd95: 1.2565821474623706, mean_jacquard: 0.8468010159829934, mean_asd: 0.24331418751272635
+2024-12-12 13:41:41.715 | INFO     | __main__:inference:151 - class_name: Myo mean_dice: 0.906134477799459, mean_hd95: 1.0, mean_jacquard: 0.829075005900286, mean_asd: 0.22002846350063598
+2024-12-12 13:41:41.715 | INFO     | __main__:inference:151 - class_name: LV mean_dice: 0.9636435788927151, mean_hd95: 1.0554074788933456, mean_jacquard: 0.9303397141564101, mean_asd: 0.161177198507819
+2024-12-12 13:41:41.715 | INFO     | __main__:inference:162 - Testing performance: mean_dice: 0.9278487930271192, mean_hd95: 1.103996542118572, mean_jacquard: 0.8687385786798965, mean_asd: 0.2081732831737271

@@ -1,0 +1,758 @@
+2024-12-25 10:06:47.228 | INFO     | model.vmamba:load_pretrained_ckpt:49 - Loading weights from: /root/autodl-tmp/mcavm_test/model/pretrain/vssm1_tiny_0230s_ckpt_epoch_264.pth
+2024-12-25 10:06:47.321 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: patch_embed.0.weight
+2024-12-25 10:06:47.322 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: patch_embed.0.bias
+2024-12-25 10:06:47.322 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: patch_embed.2.weight
+2024-12-25 10:06:47.322 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: patch_embed.2.bias
+2024-12-25 10:06:47.322 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: patch_embed.5.weight
+2024-12-25 10:06:47.322 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: patch_embed.5.bias
+2024-12-25 10:06:47.322 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: patch_embed.7.weight
+2024-12-25 10:06:47.322 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: patch_embed.7.bias
+2024-12-25 10:06:47.322 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.0.norm.weight
+2024-12-25 10:06:47.323 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.0.norm.bias
+2024-12-25 10:06:47.323 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.0.op.x_proj_weight
+2024-12-25 10:06:47.323 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.0.op.dt_projs_weight
+2024-12-25 10:06:47.323 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.0.op.dt_projs_bias
+2024-12-25 10:06:47.323 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.0.op.A_logs
+2024-12-25 10:06:47.323 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.0.op.Ds
+2024-12-25 10:06:47.323 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.0.op.out_norm.weight
+2024-12-25 10:06:47.323 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.0.op.out_norm.bias
+2024-12-25 10:06:47.324 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.0.op.in_proj.weight
+2024-12-25 10:06:47.324 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.0.op.conv2d.weight
+2024-12-25 10:06:47.324 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.0.op.out_proj.weight
+2024-12-25 10:06:47.324 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.0.norm2.weight
+2024-12-25 10:06:47.324 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.0.norm2.bias
+2024-12-25 10:06:47.324 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.0.mlp.fc1.weight
+2024-12-25 10:06:47.324 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.0.mlp.fc1.bias
+2024-12-25 10:06:47.324 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.0.mlp.fc2.weight
+2024-12-25 10:06:47.324 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.0.mlp.fc2.bias
+2024-12-25 10:06:47.325 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.1.norm.weight
+2024-12-25 10:06:47.325 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.1.norm.bias
+2024-12-25 10:06:47.325 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.1.op.x_proj_weight
+2024-12-25 10:06:47.325 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.1.op.dt_projs_weight
+2024-12-25 10:06:47.325 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.1.op.dt_projs_bias
+2024-12-25 10:06:47.325 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.1.op.A_logs
+2024-12-25 10:06:47.325 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.1.op.Ds
+2024-12-25 10:06:47.325 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.1.op.out_norm.weight
+2024-12-25 10:06:47.325 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.1.op.out_norm.bias
+2024-12-25 10:06:47.326 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.1.op.in_proj.weight
+2024-12-25 10:06:47.326 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.1.op.conv2d.weight
+2024-12-25 10:06:47.326 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.1.op.out_proj.weight
+2024-12-25 10:06:47.326 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.1.norm2.weight
+2024-12-25 10:06:47.326 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.1.norm2.bias
+2024-12-25 10:06:47.326 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.1.mlp.fc1.weight
+2024-12-25 10:06:47.326 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.1.mlp.fc1.bias
+2024-12-25 10:06:47.326 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.1.mlp.fc2.weight
+2024-12-25 10:06:47.326 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.0.blocks.1.mlp.fc2.bias
+2024-12-25 10:06:47.327 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: downsamples.0.1.weight
+2024-12-25 10:06:47.327 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: downsamples.0.1.bias
+2024-12-25 10:06:47.327 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: downsamples.0.3.weight
+2024-12-25 10:06:47.327 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: downsamples.0.3.bias
+2024-12-25 10:06:47.327 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.0.norm.weight
+2024-12-25 10:06:47.327 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.0.norm.bias
+2024-12-25 10:06:47.327 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.0.op.x_proj_weight
+2024-12-25 10:06:47.328 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.0.op.dt_projs_weight
+2024-12-25 10:06:47.328 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.0.op.dt_projs_bias
+2024-12-25 10:06:47.328 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.0.op.A_logs
+2024-12-25 10:06:47.328 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.0.op.Ds
+2024-12-25 10:06:47.328 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.0.op.out_norm.weight
+2024-12-25 10:06:47.328 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.0.op.out_norm.bias
+2024-12-25 10:06:47.328 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.0.op.in_proj.weight
+2024-12-25 10:06:47.328 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.0.op.conv2d.weight
+2024-12-25 10:06:47.328 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.0.op.out_proj.weight
+2024-12-25 10:06:47.328 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.0.norm2.weight
+2024-12-25 10:06:47.329 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.0.norm2.bias
+2024-12-25 10:06:47.329 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.0.mlp.fc1.weight
+2024-12-25 10:06:47.329 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.0.mlp.fc1.bias
+2024-12-25 10:06:47.329 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.0.mlp.fc2.weight
+2024-12-25 10:06:47.329 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.0.mlp.fc2.bias
+2024-12-25 10:06:47.329 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.1.norm.weight
+2024-12-25 10:06:47.329 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.1.norm.bias
+2024-12-25 10:06:47.330 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.1.op.x_proj_weight
+2024-12-25 10:06:47.330 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.1.op.dt_projs_weight
+2024-12-25 10:06:47.330 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.1.op.dt_projs_bias
+2024-12-25 10:06:47.330 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.1.op.A_logs
+2024-12-25 10:06:47.330 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.1.op.Ds
+2024-12-25 10:06:47.330 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.1.op.out_norm.weight
+2024-12-25 10:06:47.330 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.1.op.out_norm.bias
+2024-12-25 10:06:47.330 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.1.op.in_proj.weight
+2024-12-25 10:06:47.330 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.1.op.conv2d.weight
+2024-12-25 10:06:47.330 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.1.op.out_proj.weight
+2024-12-25 10:06:47.331 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.1.norm2.weight
+2024-12-25 10:06:47.331 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.1.norm2.bias
+2024-12-25 10:06:47.331 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.1.mlp.fc1.weight
+2024-12-25 10:06:47.331 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.1.mlp.fc1.bias
+2024-12-25 10:06:47.331 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.1.mlp.fc2.weight
+2024-12-25 10:06:47.331 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.1.blocks.1.mlp.fc2.bias
+2024-12-25 10:06:47.331 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: downsamples.1.1.weight
+2024-12-25 10:06:47.331 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: downsamples.1.1.bias
+2024-12-25 10:06:47.331 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: downsamples.1.3.weight
+2024-12-25 10:06:47.332 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: downsamples.1.3.bias
+2024-12-25 10:06:47.332 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.0.norm.weight
+2024-12-25 10:06:47.332 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.0.norm.bias
+2024-12-25 10:06:47.332 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.0.op.x_proj_weight
+2024-12-25 10:06:47.332 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.0.op.dt_projs_weight
+2024-12-25 10:06:47.332 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.0.op.dt_projs_bias
+2024-12-25 10:06:47.332 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.0.op.A_logs
+2024-12-25 10:06:47.332 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.0.op.Ds
+2024-12-25 10:06:47.332 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.0.op.out_norm.weight
+2024-12-25 10:06:47.333 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.0.op.out_norm.bias
+2024-12-25 10:06:47.333 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.0.op.in_proj.weight
+2024-12-25 10:06:47.333 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.0.op.conv2d.weight
+2024-12-25 10:06:47.333 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.0.op.out_proj.weight
+2024-12-25 10:06:47.333 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.0.norm2.weight
+2024-12-25 10:06:47.333 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.0.norm2.bias
+2024-12-25 10:06:47.333 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.0.mlp.fc1.weight
+2024-12-25 10:06:47.333 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.0.mlp.fc1.bias
+2024-12-25 10:06:47.333 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.0.mlp.fc2.weight
+2024-12-25 10:06:47.334 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.0.mlp.fc2.bias
+2024-12-25 10:06:47.334 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.1.norm.weight
+2024-12-25 10:06:47.334 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.1.norm.bias
+2024-12-25 10:06:47.334 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.1.op.x_proj_weight
+2024-12-25 10:06:47.334 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.1.op.dt_projs_weight
+2024-12-25 10:06:47.334 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.1.op.dt_projs_bias
+2024-12-25 10:06:47.334 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.1.op.A_logs
+2024-12-25 10:06:47.334 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.1.op.Ds
+2024-12-25 10:06:47.334 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.1.op.out_norm.weight
+2024-12-25 10:06:47.335 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.1.op.out_norm.bias
+2024-12-25 10:06:47.335 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.1.op.in_proj.weight
+2024-12-25 10:06:47.335 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.1.op.conv2d.weight
+2024-12-25 10:06:47.335 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.1.op.out_proj.weight
+2024-12-25 10:06:47.335 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.1.norm2.weight
+2024-12-25 10:06:47.335 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.1.norm2.bias
+2024-12-25 10:06:47.335 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.1.mlp.fc1.weight
+2024-12-25 10:06:47.335 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.1.mlp.fc1.bias
+2024-12-25 10:06:47.336 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.1.mlp.fc2.weight
+2024-12-25 10:06:47.336 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.1.mlp.fc2.bias
+2024-12-25 10:06:47.336 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.2.norm.weight
+2024-12-25 10:06:47.336 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.2.norm.bias
+2024-12-25 10:06:47.336 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.2.op.x_proj_weight
+2024-12-25 10:06:47.336 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.2.op.dt_projs_weight
+2024-12-25 10:06:47.336 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.2.op.dt_projs_bias
+2024-12-25 10:06:47.336 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.2.op.A_logs
+2024-12-25 10:06:47.336 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.2.op.Ds
+2024-12-25 10:06:47.337 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.2.op.out_norm.weight
+2024-12-25 10:06:47.337 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.2.op.out_norm.bias
+2024-12-25 10:06:47.337 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.2.op.in_proj.weight
+2024-12-25 10:06:47.337 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.2.op.conv2d.weight
+2024-12-25 10:06:47.337 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.2.op.out_proj.weight
+2024-12-25 10:06:47.337 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.2.norm2.weight
+2024-12-25 10:06:47.337 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.2.norm2.bias
+2024-12-25 10:06:47.337 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.2.mlp.fc1.weight
+2024-12-25 10:06:47.337 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.2.mlp.fc1.bias
+2024-12-25 10:06:47.337 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.2.mlp.fc2.weight
+2024-12-25 10:06:47.338 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.2.mlp.fc2.bias
+2024-12-25 10:06:47.338 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.3.norm.weight
+2024-12-25 10:06:47.338 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.3.norm.bias
+2024-12-25 10:06:47.338 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.3.op.x_proj_weight
+2024-12-25 10:06:47.338 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.3.op.dt_projs_weight
+2024-12-25 10:06:47.338 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.3.op.dt_projs_bias
+2024-12-25 10:06:47.338 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.3.op.A_logs
+2024-12-25 10:06:47.338 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.3.op.Ds
+2024-12-25 10:06:47.338 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.3.op.out_norm.weight
+2024-12-25 10:06:47.339 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.3.op.out_norm.bias
+2024-12-25 10:06:47.339 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.3.op.in_proj.weight
+2024-12-25 10:06:47.339 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.3.op.conv2d.weight
+2024-12-25 10:06:47.339 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.3.op.out_proj.weight
+2024-12-25 10:06:47.339 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.3.norm2.weight
+2024-12-25 10:06:47.339 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.3.norm2.bias
+2024-12-25 10:06:47.339 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.3.mlp.fc1.weight
+2024-12-25 10:06:47.339 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.3.mlp.fc1.bias
+2024-12-25 10:06:47.340 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.3.mlp.fc2.weight
+2024-12-25 10:06:47.340 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.3.mlp.fc2.bias
+2024-12-25 10:06:47.340 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.4.norm.weight
+2024-12-25 10:06:47.340 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.4.norm.bias
+2024-12-25 10:06:47.340 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.4.op.x_proj_weight
+2024-12-25 10:06:47.340 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.4.op.dt_projs_weight
+2024-12-25 10:06:47.340 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.4.op.dt_projs_bias
+2024-12-25 10:06:47.340 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.4.op.A_logs
+2024-12-25 10:06:47.340 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.4.op.Ds
+2024-12-25 10:06:47.340 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.4.op.out_norm.weight
+2024-12-25 10:06:47.341 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.4.op.out_norm.bias
+2024-12-25 10:06:47.341 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.4.op.in_proj.weight
+2024-12-25 10:06:47.341 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.4.op.conv2d.weight
+2024-12-25 10:06:47.341 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.4.op.out_proj.weight
+2024-12-25 10:06:47.341 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.4.norm2.weight
+2024-12-25 10:06:47.341 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.4.norm2.bias
+2024-12-25 10:06:47.341 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.4.mlp.fc1.weight
+2024-12-25 10:06:47.341 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.4.mlp.fc1.bias
+2024-12-25 10:06:47.341 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.4.mlp.fc2.weight
+2024-12-25 10:06:47.342 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.4.mlp.fc2.bias
+2024-12-25 10:06:47.342 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.5.norm.weight
+2024-12-25 10:06:47.342 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.5.norm.bias
+2024-12-25 10:06:47.342 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.5.op.x_proj_weight
+2024-12-25 10:06:47.342 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.5.op.dt_projs_weight
+2024-12-25 10:06:47.342 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.5.op.dt_projs_bias
+2024-12-25 10:06:47.342 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.5.op.A_logs
+2024-12-25 10:06:47.342 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.5.op.Ds
+2024-12-25 10:06:47.342 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.5.op.out_norm.weight
+2024-12-25 10:06:47.343 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.5.op.out_norm.bias
+2024-12-25 10:06:47.343 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.5.op.in_proj.weight
+2024-12-25 10:06:47.343 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.5.op.conv2d.weight
+2024-12-25 10:06:47.343 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.5.op.out_proj.weight
+2024-12-25 10:06:47.343 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.5.norm2.weight
+2024-12-25 10:06:47.343 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.5.norm2.bias
+2024-12-25 10:06:47.343 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.5.mlp.fc1.weight
+2024-12-25 10:06:47.343 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.5.mlp.fc1.bias
+2024-12-25 10:06:47.343 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.5.mlp.fc2.weight
+2024-12-25 10:06:47.344 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.5.mlp.fc2.bias
+2024-12-25 10:06:47.344 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.6.norm.weight
+2024-12-25 10:06:47.344 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.6.norm.bias
+2024-12-25 10:06:47.344 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.6.op.x_proj_weight
+2024-12-25 10:06:47.344 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.6.op.dt_projs_weight
+2024-12-25 10:06:47.344 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.6.op.dt_projs_bias
+2024-12-25 10:06:47.344 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.6.op.A_logs
+2024-12-25 10:06:47.344 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.6.op.Ds
+2024-12-25 10:06:47.344 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.6.op.out_norm.weight
+2024-12-25 10:06:47.344 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.6.op.out_norm.bias
+2024-12-25 10:06:47.345 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.6.op.in_proj.weight
+2024-12-25 10:06:47.345 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.6.op.conv2d.weight
+2024-12-25 10:06:47.345 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.6.op.out_proj.weight
+2024-12-25 10:06:47.345 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.6.norm2.weight
+2024-12-25 10:06:47.345 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.6.norm2.bias
+2024-12-25 10:06:47.345 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.6.mlp.fc1.weight
+2024-12-25 10:06:47.345 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.6.mlp.fc1.bias
+2024-12-25 10:06:47.345 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.6.mlp.fc2.weight
+2024-12-25 10:06:47.346 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.6.mlp.fc2.bias
+2024-12-25 10:06:47.346 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.7.norm.weight
+2024-12-25 10:06:47.346 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.7.norm.bias
+2024-12-25 10:06:47.346 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.7.op.x_proj_weight
+2024-12-25 10:06:47.346 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.7.op.dt_projs_weight
+2024-12-25 10:06:47.346 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.7.op.dt_projs_bias
+2024-12-25 10:06:47.346 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.7.op.A_logs
+2024-12-25 10:06:47.346 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.7.op.Ds
+2024-12-25 10:06:47.346 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.7.op.out_norm.weight
+2024-12-25 10:06:47.347 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.7.op.out_norm.bias
+2024-12-25 10:06:47.347 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.7.op.in_proj.weight
+2024-12-25 10:06:47.347 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.7.op.conv2d.weight
+2024-12-25 10:06:47.347 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.7.op.out_proj.weight
+2024-12-25 10:06:47.347 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.7.norm2.weight
+2024-12-25 10:06:47.347 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.7.norm2.bias
+2024-12-25 10:06:47.347 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.7.mlp.fc1.weight
+2024-12-25 10:06:47.347 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.7.mlp.fc1.bias
+2024-12-25 10:06:47.347 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.7.mlp.fc2.weight
+2024-12-25 10:06:47.347 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.2.blocks.7.mlp.fc2.bias
+2024-12-25 10:06:47.348 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: downsamples.2.1.weight
+2024-12-25 10:06:47.348 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: downsamples.2.1.bias
+2024-12-25 10:06:47.348 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: downsamples.2.3.weight
+2024-12-25 10:06:47.348 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: downsamples.2.3.bias
+2024-12-25 10:06:47.348 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.0.norm.weight
+2024-12-25 10:06:47.348 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.0.norm.bias
+2024-12-25 10:06:47.348 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.0.op.x_proj_weight
+2024-12-25 10:06:47.348 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.0.op.dt_projs_weight
+2024-12-25 10:06:47.349 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.0.op.dt_projs_bias
+2024-12-25 10:06:47.349 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.0.op.A_logs
+2024-12-25 10:06:47.349 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.0.op.Ds
+2024-12-25 10:06:47.349 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.0.op.out_norm.weight
+2024-12-25 10:06:47.349 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.0.op.out_norm.bias
+2024-12-25 10:06:47.349 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.0.op.in_proj.weight
+2024-12-25 10:06:47.349 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.0.op.conv2d.weight
+2024-12-25 10:06:47.349 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.0.op.out_proj.weight
+2024-12-25 10:06:47.349 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.0.norm2.weight
+2024-12-25 10:06:47.350 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.0.norm2.bias
+2024-12-25 10:06:47.350 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.0.mlp.fc1.weight
+2024-12-25 10:06:47.350 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.0.mlp.fc1.bias
+2024-12-25 10:06:47.350 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.0.mlp.fc2.weight
+2024-12-25 10:06:47.350 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.0.mlp.fc2.bias
+2024-12-25 10:06:47.350 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.1.norm.weight
+2024-12-25 10:06:47.350 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.1.norm.bias
+2024-12-25 10:06:47.350 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.1.op.x_proj_weight
+2024-12-25 10:06:47.350 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.1.op.dt_projs_weight
+2024-12-25 10:06:47.350 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.1.op.dt_projs_bias
+2024-12-25 10:06:47.351 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.1.op.A_logs
+2024-12-25 10:06:47.351 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.1.op.Ds
+2024-12-25 10:06:47.351 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.1.op.out_norm.weight
+2024-12-25 10:06:47.351 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.1.op.out_norm.bias
+2024-12-25 10:06:47.351 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.1.op.in_proj.weight
+2024-12-25 10:06:47.399 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.1.op.conv2d.weight
+2024-12-25 10:06:47.400 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.1.op.out_proj.weight
+2024-12-25 10:06:47.400 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.1.norm2.weight
+2024-12-25 10:06:47.400 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.1.norm2.bias
+2024-12-25 10:06:47.400 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.1.mlp.fc1.weight
+2024-12-25 10:06:47.400 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.1.mlp.fc1.bias
+2024-12-25 10:06:47.400 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.1.mlp.fc2.weight
+2024-12-25 10:06:47.400 | INFO     | model.vmamba:load_pretrained_ckpt:73 - Loaded weights: layers.3.blocks.1.mlp.fc2.bias
+2024-12-25 10:06:47.400 | INFO     | model.vmamba:load_pretrained_ckpt:75 - Passing weights: classifier.norm.weight
+2024-12-25 10:06:47.400 | INFO     | model.vmamba:load_pretrained_ckpt:75 - Passing weights: classifier.norm.bias
+2024-12-25 10:06:47.400 | INFO     | model.vmamba:load_pretrained_ckpt:75 - Passing weights: classifier.head.weight
+2024-12-25 10:06:47.401 | INFO     | model.vmamba:load_pretrained_ckpt:75 - Passing weights: classifier.head.bias
+2024-12-25 10:07:07.192 | INFO     | __main__:log_and_logger:124 - epoch: 0 - val_mean_dice: 0.00707202723606315
+2024-12-25 10:08:30.533 | INFO     | __main__:log_and_logger:124 - epoch: 0 - mean_train_loss: 0.8097683191299438
+2024-12-25 10:09:43.838 | INFO     | __main__:log_and_logger:124 - epoch: 1 - mean_train_loss: 0.511072039604187
+2024-12-25 10:11:03.513 | INFO     | __main__:log_and_logger:124 - epoch: 2 - mean_train_loss: 0.41053834557533264
+2024-12-25 10:12:15.631 | INFO     | __main__:log_and_logger:124 - epoch: 3 - mean_train_loss: 0.3238111734390259
+2024-12-25 10:15:09.322 | INFO     | __main__:log_and_logger:124 - epoch: 4 - val_mean_dice: 0.6510654093581252
+2024-12-25 10:15:11.024 | INFO     | __main__:log_and_logger:124 - epoch: 4 - mean_train_loss: 0.28494352102279663
+2024-12-25 10:16:32.695 | INFO     | __main__:log_and_logger:124 - epoch: 5 - mean_train_loss: 0.2496330589056015
+2024-12-25 10:17:46.507 | INFO     | __main__:log_and_logger:124 - epoch: 6 - mean_train_loss: 0.23640435934066772
+2024-12-25 10:19:05.102 | INFO     | __main__:log_and_logger:124 - epoch: 7 - mean_train_loss: 0.2205871194601059
+2024-12-25 10:20:21.713 | INFO     | __main__:log_and_logger:124 - epoch: 8 - mean_train_loss: 0.21360012888908386
+2024-12-25 10:23:12.178 | INFO     | __main__:log_and_logger:124 - epoch: 9 - val_mean_dice: 0.7204572172971286
+2024-12-25 10:23:13.984 | INFO     | __main__:log_and_logger:124 - epoch: 9 - mean_train_loss: 0.22149543464183807
+2024-12-25 10:24:38.331 | INFO     | __main__:log_and_logger:124 - epoch: 10 - mean_train_loss: 0.20286937057971954
+2024-12-25 10:26:00.427 | INFO     | __main__:log_and_logger:124 - epoch: 11 - mean_train_loss: 0.18903374671936035
+2024-12-25 10:27:13.062 | INFO     | __main__:log_and_logger:124 - epoch: 12 - mean_train_loss: 0.19597658514976501
+2024-12-25 10:28:27.621 | INFO     | __main__:log_and_logger:124 - epoch: 13 - mean_train_loss: 0.1784960925579071
+2024-12-25 10:31:23.531 | INFO     | __main__:log_and_logger:124 - epoch: 14 - val_mean_dice: 0.7644693337206263
+2024-12-25 10:31:26.408 | INFO     | __main__:log_and_logger:124 - epoch: 14 - mean_train_loss: 0.17459872364997864
+2024-12-25 10:32:37.718 | INFO     | __main__:log_and_logger:124 - epoch: 15 - mean_train_loss: 0.15696269273757935
+2024-12-25 10:33:46.991 | INFO     | __main__:log_and_logger:124 - epoch: 16 - mean_train_loss: 0.14648598432540894
+2024-12-25 10:35:02.474 | INFO     | __main__:log_and_logger:124 - epoch: 17 - mean_train_loss: 0.14344516396522522
+2024-12-25 10:36:21.238 | INFO     | __main__:log_and_logger:124 - epoch: 18 - mean_train_loss: 0.1534147560596466
+2024-12-25 10:39:14.442 | INFO     | __main__:log_and_logger:124 - epoch: 19 - val_mean_dice: 0.8085863362648524
+2024-12-25 10:39:17.381 | INFO     | __main__:log_and_logger:124 - epoch: 19 - mean_train_loss: 0.14856359362602234
+2024-12-25 10:40:43.916 | INFO     | __main__:log_and_logger:124 - epoch: 20 - mean_train_loss: 0.14010286331176758
+2024-12-25 10:42:04.217 | INFO     | __main__:log_and_logger:124 - epoch: 21 - mean_train_loss: 0.1417524665594101
+2024-12-25 10:43:25.861 | INFO     | __main__:log_and_logger:124 - epoch: 22 - mean_train_loss: 0.13788346946239471
+2024-12-25 10:44:42.490 | INFO     | __main__:log_and_logger:124 - epoch: 23 - mean_train_loss: 0.1328526884317398
+2024-12-25 10:47:43.063 | INFO     | __main__:log_and_logger:124 - epoch: 24 - val_mean_dice: 0.8055613156175241
+2024-12-25 10:47:44.547 | INFO     | __main__:log_and_logger:124 - epoch: 24 - mean_train_loss: 0.1313076764345169
+2024-12-25 10:49:00.769 | INFO     | __main__:log_and_logger:124 - epoch: 25 - mean_train_loss: 0.13840825855731964
+2024-12-25 10:50:25.811 | INFO     | __main__:log_and_logger:124 - epoch: 26 - mean_train_loss: 0.12902219593524933
+2024-12-25 10:51:46.411 | INFO     | __main__:log_and_logger:124 - epoch: 27 - mean_train_loss: 0.11503314971923828
+2024-12-25 10:53:12.245 | INFO     | __main__:log_and_logger:124 - epoch: 28 - mean_train_loss: 0.14276644587516785
+2024-12-25 10:56:11.702 | INFO     | __main__:log_and_logger:124 - epoch: 29 - val_mean_dice: 0.8093889065591309
+2024-12-25 10:56:14.642 | INFO     | __main__:log_and_logger:124 - epoch: 29 - mean_train_loss: 0.12053438276052475
+2024-12-25 10:57:40.243 | INFO     | __main__:log_and_logger:124 - epoch: 30 - mean_train_loss: 0.13122479617595673
+2024-12-25 10:59:03.436 | INFO     | __main__:log_and_logger:124 - epoch: 31 - mean_train_loss: 0.1179918721318245
+2024-12-25 11:00:26.406 | INFO     | __main__:log_and_logger:124 - epoch: 32 - mean_train_loss: 0.12342295050621033
+2024-12-25 11:01:45.699 | INFO     | __main__:log_and_logger:124 - epoch: 33 - mean_train_loss: 0.11207076162099838
+2024-12-25 11:04:41.725 | INFO     | __main__:log_and_logger:124 - epoch: 34 - val_mean_dice: 0.8097428665108357
+2024-12-25 11:04:44.754 | INFO     | __main__:log_and_logger:124 - epoch: 34 - mean_train_loss: 0.12370260804891586
+2024-12-25 11:06:01.348 | INFO     | __main__:log_and_logger:124 - epoch: 35 - mean_train_loss: 0.11518703401088715
+2024-12-25 11:07:21.156 | INFO     | __main__:log_and_logger:124 - epoch: 36 - mean_train_loss: 0.10657984018325806
+2024-12-25 11:08:35.962 | INFO     | __main__:log_and_logger:124 - epoch: 37 - mean_train_loss: 0.11277075856924057
+2024-12-25 11:09:48.796 | INFO     | __main__:log_and_logger:124 - epoch: 38 - mean_train_loss: 0.11754530668258667
+2024-12-25 11:12:43.056 | INFO     | __main__:log_and_logger:124 - epoch: 39 - val_mean_dice: 0.8358670081167172
+2024-12-25 11:12:46.069 | INFO     | __main__:log_and_logger:124 - epoch: 39 - mean_train_loss: 0.10634607076644897
+2024-12-25 11:13:55.786 | INFO     | __main__:log_and_logger:124 - epoch: 40 - mean_train_loss: 0.114142507314682
+2024-12-25 11:15:09.126 | INFO     | __main__:log_and_logger:124 - epoch: 41 - mean_train_loss: 0.1112757995724678
+2024-12-25 11:16:27.295 | INFO     | __main__:log_and_logger:124 - epoch: 42 - mean_train_loss: 0.10742238909006119
+2024-12-25 11:17:40.218 | INFO     | __main__:log_and_logger:124 - epoch: 43 - mean_train_loss: 0.10440846532583237
+2024-12-25 11:20:28.574 | INFO     | __main__:log_and_logger:124 - epoch: 44 - val_mean_dice: 0.8102388682697589
+2024-12-25 11:20:30.118 | INFO     | __main__:log_and_logger:124 - epoch: 44 - mean_train_loss: 0.10619445890188217
+2024-12-25 11:21:44.392 | INFO     | __main__:log_and_logger:124 - epoch: 45 - mean_train_loss: 0.09921707212924957
+2024-12-25 11:22:57.423 | INFO     | __main__:log_and_logger:124 - epoch: 46 - mean_train_loss: 0.10219644010066986
+2024-12-25 11:24:23.922 | INFO     | __main__:log_and_logger:124 - epoch: 47 - mean_train_loss: 0.09320336580276489
+2024-12-25 11:25:34.337 | INFO     | __main__:log_and_logger:124 - epoch: 48 - mean_train_loss: 0.09947410225868225
+2024-12-25 11:28:30.455 | INFO     | __main__:log_and_logger:124 - epoch: 49 - val_mean_dice: 0.8256423650309443
+2024-12-25 11:28:32.180 | INFO     | __main__:log_and_logger:124 - epoch: 49 - mean_train_loss: 0.09709722548723221
+2024-12-25 11:29:45.821 | INFO     | __main__:log_and_logger:124 - epoch: 50 - mean_train_loss: 0.10222622007131577
+2024-12-25 11:31:06.190 | INFO     | __main__:log_and_logger:124 - epoch: 51 - mean_train_loss: 0.09106133878231049
+2024-12-25 11:32:22.048 | INFO     | __main__:log_and_logger:124 - epoch: 52 - mean_train_loss: 0.10392986983060837
+2024-12-25 11:33:42.973 | INFO     | __main__:log_and_logger:124 - epoch: 53 - mean_train_loss: 0.10405121743679047
+2024-12-25 11:36:38.649 | INFO     | __main__:log_and_logger:124 - epoch: 54 - val_mean_dice: 0.8239137659935902
+2024-12-25 11:36:40.289 | INFO     | __main__:log_and_logger:124 - epoch: 54 - mean_train_loss: 0.11172664165496826
+2024-12-25 11:37:47.814 | INFO     | __main__:log_and_logger:124 - epoch: 55 - mean_train_loss: 0.104023776948452
+2024-12-25 11:39:07.953 | INFO     | __main__:log_and_logger:124 - epoch: 56 - mean_train_loss: 0.10380671173334122
+2024-12-25 11:40:23.466 | INFO     | __main__:log_and_logger:124 - epoch: 57 - mean_train_loss: 0.10218855738639832
+2024-12-25 11:41:42.057 | INFO     | __main__:log_and_logger:124 - epoch: 58 - mean_train_loss: 0.09668297320604324
+2024-12-25 11:44:35.817 | INFO     | __main__:log_and_logger:124 - epoch: 59 - val_mean_dice: 0.8310117772780359
+2024-12-25 11:44:37.329 | INFO     | __main__:log_and_logger:124 - epoch: 59 - mean_train_loss: 0.094179168343544
+2024-12-25 11:45:48.817 | INFO     | __main__:log_and_logger:124 - epoch: 60 - mean_train_loss: 0.09067212790250778
+2024-12-25 11:47:08.226 | INFO     | __main__:log_and_logger:124 - epoch: 61 - mean_train_loss: 0.10689129680395126
+2024-12-25 11:48:28.776 | INFO     | __main__:log_and_logger:124 - epoch: 62 - mean_train_loss: 0.09021797776222229
+2024-12-25 11:49:51.995 | INFO     | __main__:log_and_logger:124 - epoch: 63 - mean_train_loss: 0.09319158643484116
+2024-12-25 11:52:50.020 | INFO     | __main__:log_and_logger:124 - epoch: 64 - val_mean_dice: 0.81084880012592
+2024-12-25 11:52:51.491 | INFO     | __main__:log_and_logger:124 - epoch: 64 - mean_train_loss: 0.0904172733426094
+2024-12-25 11:54:10.070 | INFO     | __main__:log_and_logger:124 - epoch: 65 - mean_train_loss: 0.09803823381662369
+2024-12-25 11:55:29.005 | INFO     | __main__:log_and_logger:124 - epoch: 66 - mean_train_loss: 0.09315589815378189
+2024-12-25 11:56:53.018 | INFO     | __main__:log_and_logger:124 - epoch: 67 - mean_train_loss: 0.09762643277645111
+2024-12-25 11:58:21.696 | INFO     | __main__:log_and_logger:124 - epoch: 68 - mean_train_loss: 0.10408163070678711
+2024-12-25 12:01:12.766 | INFO     | __main__:log_and_logger:124 - epoch: 69 - val_mean_dice: 0.8182921796299827
+2024-12-25 12:01:14.192 | INFO     | __main__:log_and_logger:124 - epoch: 69 - mean_train_loss: 0.10054949671030045
+2024-12-25 12:02:34.872 | INFO     | __main__:log_and_logger:124 - epoch: 70 - mean_train_loss: 0.08892437070608139
+2024-12-25 12:04:03.778 | INFO     | __main__:log_and_logger:124 - epoch: 71 - mean_train_loss: 0.09113139659166336
+2024-12-25 12:05:23.353 | INFO     | __main__:log_and_logger:124 - epoch: 72 - mean_train_loss: 0.1022157371044159
+2024-12-25 12:06:48.712 | INFO     | __main__:log_and_logger:124 - epoch: 73 - mean_train_loss: 0.09976627677679062
+2024-12-25 12:09:42.836 | INFO     | __main__:log_and_logger:124 - epoch: 74 - val_mean_dice: 0.7476835679650928
+2024-12-25 12:09:44.278 | INFO     | __main__:log_and_logger:124 - epoch: 74 - mean_train_loss: 0.0951857790350914
+2024-12-25 12:11:02.157 | INFO     | __main__:log_and_logger:124 - epoch: 75 - mean_train_loss: 0.09629766643047333
+2024-12-25 12:12:14.977 | INFO     | __main__:log_and_logger:124 - epoch: 76 - mean_train_loss: 0.09657757729291916
+2024-12-25 12:13:39.139 | INFO     | __main__:log_and_logger:124 - epoch: 77 - mean_train_loss: 0.09677249193191528
+2024-12-25 12:15:04.412 | INFO     | __main__:log_and_logger:124 - epoch: 78 - mean_train_loss: 0.09136729687452316
+2024-12-25 12:18:04.147 | INFO     | __main__:log_and_logger:124 - epoch: 79 - val_mean_dice: 0.8409324485498171
+2024-12-25 12:18:06.934 | INFO     | __main__:log_and_logger:124 - epoch: 79 - mean_train_loss: 0.0994098111987114
+2024-12-25 12:19:22.918 | INFO     | __main__:log_and_logger:124 - epoch: 80 - mean_train_loss: 0.08966343849897385
+2024-12-25 12:20:37.961 | INFO     | __main__:log_and_logger:124 - epoch: 81 - mean_train_loss: 0.0979376807808876
+2024-12-25 12:21:59.066 | INFO     | __main__:log_and_logger:124 - epoch: 82 - mean_train_loss: 0.09507761895656586
+2024-12-25 12:23:17.591 | INFO     | __main__:log_and_logger:124 - epoch: 83 - mean_train_loss: 0.08409513533115387
+2024-12-25 12:26:11.248 | INFO     | __main__:log_and_logger:124 - epoch: 84 - val_mean_dice: 0.831411119356441
+2024-12-25 12:26:12.843 | INFO     | __main__:log_and_logger:124 - epoch: 84 - mean_train_loss: 0.0929436981678009
+2024-12-25 12:27:37.106 | INFO     | __main__:log_and_logger:124 - epoch: 85 - mean_train_loss: 0.08478853851556778
+2024-12-25 12:28:59.191 | INFO     | __main__:log_and_logger:124 - epoch: 86 - mean_train_loss: 0.09825938194990158
+2024-12-25 12:30:14.277 | INFO     | __main__:log_and_logger:124 - epoch: 87 - mean_train_loss: 0.08670660108327866
+2024-12-25 12:31:38.672 | INFO     | __main__:log_and_logger:124 - epoch: 88 - mean_train_loss: 0.08600485324859619
+2024-12-25 12:34:31.383 | INFO     | __main__:log_and_logger:124 - epoch: 89 - val_mean_dice: 0.8362958742848908
+2024-12-25 12:34:33.129 | INFO     | __main__:log_and_logger:124 - epoch: 89 - mean_train_loss: 0.0852193757891655
+2024-12-25 12:35:48.080 | INFO     | __main__:log_and_logger:124 - epoch: 90 - mean_train_loss: 0.09454836696386337
+2024-12-25 12:37:05.332 | INFO     | __main__:log_and_logger:124 - epoch: 91 - mean_train_loss: 0.08179938793182373
+2024-12-25 12:38:31.115 | INFO     | __main__:log_and_logger:124 - epoch: 92 - mean_train_loss: 0.08116290718317032
+2024-12-25 12:39:52.751 | INFO     | __main__:log_and_logger:124 - epoch: 93 - mean_train_loss: 0.09029757231473923
+2024-12-25 12:42:49.359 | INFO     | __main__:log_and_logger:124 - epoch: 94 - val_mean_dice: 0.8244545869335222
+2024-12-25 12:42:50.897 | INFO     | __main__:log_and_logger:124 - epoch: 94 - mean_train_loss: 0.08763566613197327
+2024-12-25 12:44:07.509 | INFO     | __main__:log_and_logger:124 - epoch: 95 - mean_train_loss: 0.09150271117687225
+2024-12-25 12:45:26.939 | INFO     | __main__:log_and_logger:124 - epoch: 96 - mean_train_loss: 0.08314725011587143
+2024-12-25 12:46:37.117 | INFO     | __main__:log_and_logger:124 - epoch: 97 - mean_train_loss: 0.08560855686664581
+2024-12-25 12:47:51.353 | INFO     | __main__:log_and_logger:124 - epoch: 98 - mean_train_loss: 0.08033129572868347
+2024-12-25 12:50:39.240 | INFO     | __main__:log_and_logger:124 - epoch: 99 - val_mean_dice: 0.8508225728292018
+2024-12-25 12:50:41.778 | INFO     | __main__:log_and_logger:124 - epoch: 99 - mean_train_loss: 0.0820956602692604
+2024-12-25 12:52:02.645 | INFO     | __main__:log_and_logger:124 - epoch: 100 - mean_train_loss: 0.08304980397224426
+2024-12-25 12:53:21.009 | INFO     | __main__:log_and_logger:124 - epoch: 101 - mean_train_loss: 0.0814191922545433
+2024-12-25 12:54:40.776 | INFO     | __main__:log_and_logger:124 - epoch: 102 - mean_train_loss: 0.08373425900936127
+2024-12-25 12:56:00.102 | INFO     | __main__:log_and_logger:124 - epoch: 103 - mean_train_loss: 0.0834425613284111
+2024-12-25 12:58:48.525 | INFO     | __main__:log_and_logger:124 - epoch: 104 - val_mean_dice: 0.8363882850389928
+2024-12-25 12:58:50.163 | INFO     | __main__:log_and_logger:124 - epoch: 104 - mean_train_loss: 0.08184749633073807
+2024-12-25 13:00:04.526 | INFO     | __main__:log_and_logger:124 - epoch: 105 - mean_train_loss: 0.08092378079891205
+2024-12-25 13:01:18.931 | INFO     | __main__:log_and_logger:124 - epoch: 106 - mean_train_loss: 0.08719824999570847
+2024-12-25 13:02:36.784 | INFO     | __main__:log_and_logger:124 - epoch: 107 - mean_train_loss: 0.07670334726572037
+2024-12-25 13:03:55.027 | INFO     | __main__:log_and_logger:124 - epoch: 108 - mean_train_loss: 0.09344657510519028
+2024-12-25 13:06:45.256 | INFO     | __main__:log_and_logger:124 - epoch: 109 - val_mean_dice: 0.8393450779258274
+2024-12-25 13:06:46.606 | INFO     | __main__:log_and_logger:124 - epoch: 109 - mean_train_loss: 0.0941532701253891
+2024-12-25 13:07:57.175 | INFO     | __main__:log_and_logger:124 - epoch: 110 - mean_train_loss: 0.08369630575180054
+2024-12-25 13:09:20.892 | INFO     | __main__:log_and_logger:124 - epoch: 111 - mean_train_loss: 0.08308533579111099
+2024-12-25 13:10:36.063 | INFO     | __main__:log_and_logger:124 - epoch: 112 - mean_train_loss: 0.07038124650716782
+2024-12-25 13:11:53.217 | INFO     | __main__:log_and_logger:124 - epoch: 113 - mean_train_loss: 0.08033835142850876
+2024-12-25 13:14:38.310 | INFO     | __main__:log_and_logger:124 - epoch: 114 - val_mean_dice: 0.8323903325169036
+2024-12-25 13:14:39.925 | INFO     | __main__:log_and_logger:124 - epoch: 114 - mean_train_loss: 0.07778041809797287
+2024-12-25 13:15:55.525 | INFO     | __main__:log_and_logger:124 - epoch: 115 - mean_train_loss: 0.07373122125864029
+2024-12-25 13:17:10.093 | INFO     | __main__:log_and_logger:124 - epoch: 116 - mean_train_loss: 0.06919796019792557
+2024-12-25 13:18:30.111 | INFO     | __main__:log_and_logger:124 - epoch: 117 - mean_train_loss: 0.07516340911388397
+2024-12-25 13:19:46.420 | INFO     | __main__:log_and_logger:124 - epoch: 118 - mean_train_loss: 0.07259673625230789
+2024-12-25 13:22:29.987 | INFO     | __main__:log_and_logger:124 - epoch: 119 - val_mean_dice: 0.8494447915970037
+2024-12-25 13:22:31.411 | INFO     | __main__:log_and_logger:124 - epoch: 119 - mean_train_loss: 0.08150821924209595
+2024-12-25 13:23:48.959 | INFO     | __main__:log_and_logger:124 - epoch: 120 - mean_train_loss: 0.08217697590589523
+2024-12-25 13:25:06.277 | INFO     | __main__:log_and_logger:124 - epoch: 121 - mean_train_loss: 0.07730744779109955
+2024-12-25 13:26:22.306 | INFO     | __main__:log_and_logger:124 - epoch: 122 - mean_train_loss: 0.08536867052316666
+2024-12-25 13:27:40.738 | INFO     | __main__:log_and_logger:124 - epoch: 123 - mean_train_loss: 0.0847424641251564
+2024-12-25 13:30:35.794 | INFO     | __main__:log_and_logger:124 - epoch: 124 - val_mean_dice: 0.8331411444426825
+2024-12-25 13:30:37.355 | INFO     | __main__:log_and_logger:124 - epoch: 124 - mean_train_loss: 0.08080589026212692
+2024-12-25 13:31:56.735 | INFO     | __main__:log_and_logger:124 - epoch: 125 - mean_train_loss: 0.082790307700634
+2024-12-25 13:33:12.550 | INFO     | __main__:log_and_logger:124 - epoch: 126 - mean_train_loss: 0.07479404658079147
+2024-12-25 13:34:24.892 | INFO     | __main__:log_and_logger:124 - epoch: 127 - mean_train_loss: 0.07355993241071701
+2024-12-25 13:35:49.067 | INFO     | __main__:log_and_logger:124 - epoch: 128 - mean_train_loss: 0.07671479880809784
+2024-12-25 13:38:37.995 | INFO     | __main__:log_and_logger:124 - epoch: 129 - val_mean_dice: 0.8418433703482151
+2024-12-25 13:38:39.485 | INFO     | __main__:log_and_logger:124 - epoch: 129 - mean_train_loss: 0.07444369792938232
+2024-12-25 13:39:53.306 | INFO     | __main__:log_and_logger:124 - epoch: 130 - mean_train_loss: 0.08644215017557144
+2024-12-25 13:41:15.111 | INFO     | __main__:log_and_logger:124 - epoch: 131 - mean_train_loss: 0.07459704577922821
+2024-12-25 13:42:34.654 | INFO     | __main__:log_and_logger:124 - epoch: 132 - mean_train_loss: 0.07845111936330795
+2024-12-25 13:43:50.333 | INFO     | __main__:log_and_logger:124 - epoch: 133 - mean_train_loss: 0.08058254420757294
+2024-12-25 13:46:49.764 | INFO     | __main__:log_and_logger:124 - epoch: 134 - val_mean_dice: 0.8298548864355932
+2024-12-25 13:46:51.216 | INFO     | __main__:log_and_logger:124 - epoch: 134 - mean_train_loss: 0.07727110385894775
+2024-12-25 13:48:07.349 | INFO     | __main__:log_and_logger:124 - epoch: 135 - mean_train_loss: 0.07721259444952011
+2024-12-25 13:49:24.177 | INFO     | __main__:log_and_logger:124 - epoch: 136 - mean_train_loss: 0.07606437057256699
+2024-12-25 13:50:46.200 | INFO     | __main__:log_and_logger:124 - epoch: 137 - mean_train_loss: 0.08057969808578491
+2024-12-25 13:52:03.132 | INFO     | __main__:log_and_logger:124 - epoch: 138 - mean_train_loss: 0.08727583289146423
+2024-12-25 13:55:01.817 | INFO     | __main__:log_and_logger:124 - epoch: 139 - val_mean_dice: 0.8424343296016256
+2024-12-25 13:55:03.326 | INFO     | __main__:log_and_logger:124 - epoch: 139 - mean_train_loss: 0.07903886586427689
+2024-12-25 13:56:30.707 | INFO     | __main__:log_and_logger:124 - epoch: 140 - mean_train_loss: 0.08841774612665176
+2024-12-25 13:57:49.755 | INFO     | __main__:log_and_logger:124 - epoch: 141 - mean_train_loss: 0.07917995750904083
+2024-12-25 13:59:06.195 | INFO     | __main__:log_and_logger:124 - epoch: 142 - mean_train_loss: 0.07429547607898712
+2024-12-25 14:00:26.656 | INFO     | __main__:log_and_logger:124 - epoch: 143 - mean_train_loss: 0.07064783573150635
+2024-12-25 14:03:17.938 | INFO     | __main__:log_and_logger:124 - epoch: 144 - val_mean_dice: 0.8458691617706791
+2024-12-25 14:03:19.447 | INFO     | __main__:log_and_logger:124 - epoch: 144 - mean_train_loss: 0.07509493082761765
+2024-12-25 14:04:40.924 | INFO     | __main__:log_and_logger:124 - epoch: 145 - mean_train_loss: 0.07209081947803497
+2024-12-25 14:06:04.329 | INFO     | __main__:log_and_logger:124 - epoch: 146 - mean_train_loss: 0.08014032244682312
+2024-12-25 14:07:26.128 | INFO     | __main__:log_and_logger:124 - epoch: 147 - mean_train_loss: 0.08762601763010025
+2024-12-25 14:08:44.021 | INFO     | __main__:log_and_logger:124 - epoch: 148 - mean_train_loss: 0.0778205469250679
+2024-12-25 14:11:40.746 | INFO     | __main__:log_and_logger:124 - epoch: 149 - val_mean_dice: 0.8387872200498048
+2024-12-25 14:11:42.296 | INFO     | __main__:log_and_logger:124 - epoch: 149 - mean_train_loss: 0.08826953917741776
+2024-12-25 14:13:03.073 | INFO     | __main__:log_and_logger:124 - epoch: 150 - mean_train_loss: 0.06990067660808563
+2024-12-25 14:14:20.490 | INFO     | __main__:log_and_logger:124 - epoch: 151 - mean_train_loss: 0.077735036611557
+2024-12-25 14:15:41.813 | INFO     | __main__:log_and_logger:124 - epoch: 152 - mean_train_loss: 0.07639431953430176
+2024-12-25 14:17:00.676 | INFO     | __main__:log_and_logger:124 - epoch: 153 - mean_train_loss: 0.06450756639242172
+2024-12-25 14:19:53.001 | INFO     | __main__:log_and_logger:124 - epoch: 154 - val_mean_dice: 0.8357972021913156
+2024-12-25 14:19:54.389 | INFO     | __main__:log_and_logger:124 - epoch: 154 - mean_train_loss: 0.07844007015228271
+2024-12-25 14:21:08.519 | INFO     | __main__:log_and_logger:124 - epoch: 155 - mean_train_loss: 0.07528451830148697
+2024-12-25 14:22:26.646 | INFO     | __main__:log_and_logger:124 - epoch: 156 - mean_train_loss: 0.06776119023561478
+2024-12-25 14:23:42.286 | INFO     | __main__:log_and_logger:124 - epoch: 157 - mean_train_loss: 0.07156660407781601
+2024-12-25 14:24:54.408 | INFO     | __main__:log_and_logger:124 - epoch: 158 - mean_train_loss: 0.07495668530464172
+2024-12-25 14:27:44.928 | INFO     | __main__:log_and_logger:124 - epoch: 159 - val_mean_dice: 0.8367148977704346
+2024-12-25 14:27:46.344 | INFO     | __main__:log_and_logger:124 - epoch: 159 - mean_train_loss: 0.07731397449970245
+2024-12-25 14:29:07.999 | INFO     | __main__:log_and_logger:124 - epoch: 160 - mean_train_loss: 0.07253756374120712
+2024-12-25 14:30:31.979 | INFO     | __main__:log_and_logger:124 - epoch: 161 - mean_train_loss: 0.0701371282339096
+2024-12-25 14:31:48.596 | INFO     | __main__:log_and_logger:124 - epoch: 162 - mean_train_loss: 0.06755935400724411
+2024-12-25 14:33:06.558 | INFO     | __main__:log_and_logger:124 - epoch: 163 - mean_train_loss: 0.06853920221328735
+2024-12-25 14:35:53.961 | INFO     | __main__:log_and_logger:124 - epoch: 164 - val_mean_dice: 0.8460300529065232
+2024-12-25 14:35:55.482 | INFO     | __main__:log_and_logger:124 - epoch: 164 - mean_train_loss: 0.07381077110767365
+2024-12-25 14:37:07.750 | INFO     | __main__:log_and_logger:124 - epoch: 165 - mean_train_loss: 0.06905096024274826
+2024-12-25 14:38:18.667 | INFO     | __main__:log_and_logger:124 - epoch: 166 - mean_train_loss: 0.07278977334499359
+2024-12-25 14:39:34.221 | INFO     | __main__:log_and_logger:124 - epoch: 167 - mean_train_loss: 0.06863641738891602
+2024-12-25 14:40:50.106 | INFO     | __main__:log_and_logger:124 - epoch: 168 - mean_train_loss: 0.0698612630367279
+2024-12-25 14:43:40.708 | INFO     | __main__:log_and_logger:124 - epoch: 169 - val_mean_dice: 0.8342242999157558
+2024-12-25 14:43:42.088 | INFO     | __main__:log_and_logger:124 - epoch: 169 - mean_train_loss: 0.06915280222892761
+2024-12-25 14:44:55.632 | INFO     | __main__:log_and_logger:124 - epoch: 170 - mean_train_loss: 0.07180383801460266
+2024-12-25 14:46:13.062 | INFO     | __main__:log_and_logger:124 - epoch: 171 - mean_train_loss: 0.07318371534347534
+2024-12-25 14:47:26.807 | INFO     | __main__:log_and_logger:124 - epoch: 172 - mean_train_loss: 0.07386480271816254
+2024-12-25 14:48:42.219 | INFO     | __main__:log_and_logger:124 - epoch: 173 - mean_train_loss: 0.07159347832202911
+2024-12-25 14:51:34.388 | INFO     | __main__:log_and_logger:124 - epoch: 174 - val_mean_dice: 0.8533713276265189
+2024-12-25 14:51:37.075 | INFO     | __main__:log_and_logger:124 - epoch: 174 - mean_train_loss: 0.06702911853790283
+2024-12-25 14:52:57.721 | INFO     | __main__:log_and_logger:124 - epoch: 175 - mean_train_loss: 0.07124917954206467
+2024-12-25 14:54:12.685 | INFO     | __main__:log_and_logger:124 - epoch: 176 - mean_train_loss: 0.07151295244693756
+2024-12-25 14:55:25.544 | INFO     | __main__:log_and_logger:124 - epoch: 177 - mean_train_loss: 0.06911589950323105
+2024-12-25 14:56:50.024 | INFO     | __main__:log_and_logger:124 - epoch: 178 - mean_train_loss: 0.06688324362039566
+2024-12-25 14:59:37.398 | INFO     | __main__:log_and_logger:124 - epoch: 179 - val_mean_dice: 0.8338637454823281
+2024-12-25 14:59:38.846 | INFO     | __main__:log_and_logger:124 - epoch: 179 - mean_train_loss: 0.07424940168857574
+2024-12-25 15:01:00.949 | INFO     | __main__:log_and_logger:124 - epoch: 180 - mean_train_loss: 0.06433399021625519
+2024-12-25 15:02:13.230 | INFO     | __main__:log_and_logger:124 - epoch: 181 - mean_train_loss: 0.07417596131563187
+2024-12-25 15:03:22.606 | INFO     | __main__:log_and_logger:124 - epoch: 182 - mean_train_loss: 0.06501186639070511
+2024-12-25 15:04:50.109 | INFO     | __main__:log_and_logger:124 - epoch: 183 - mean_train_loss: 0.07212033867835999
+2024-12-25 15:07:38.363 | INFO     | __main__:log_and_logger:124 - epoch: 184 - val_mean_dice: 0.8457934184310336
+2024-12-25 15:07:39.840 | INFO     | __main__:log_and_logger:124 - epoch: 184 - mean_train_loss: 0.0689651370048523
+2024-12-25 15:09:02.409 | INFO     | __main__:log_and_logger:124 - epoch: 185 - mean_train_loss: 0.06877145916223526
+2024-12-25 15:10:15.299 | INFO     | __main__:log_and_logger:124 - epoch: 186 - mean_train_loss: 0.0692349523305893
+2024-12-25 15:11:27.987 | INFO     | __main__:log_and_logger:124 - epoch: 187 - mean_train_loss: 0.06389380991458893
+2024-12-25 15:12:40.995 | INFO     | __main__:log_and_logger:124 - epoch: 188 - mean_train_loss: 0.06987154483795166
+2024-12-25 15:15:36.152 | INFO     | __main__:log_and_logger:124 - epoch: 189 - val_mean_dice: 0.8480927352405463
+2024-12-25 15:15:37.550 | INFO     | __main__:log_and_logger:124 - epoch: 189 - mean_train_loss: 0.06212643161416054
+2024-12-25 15:16:55.829 | INFO     | __main__:log_and_logger:124 - epoch: 190 - mean_train_loss: 0.06733100116252899
+2024-12-25 15:18:11.694 | INFO     | __main__:log_and_logger:124 - epoch: 191 - mean_train_loss: 0.06278707087039948
+2024-12-25 15:19:35.312 | INFO     | __main__:log_and_logger:124 - epoch: 192 - mean_train_loss: 0.06419949233531952
+2024-12-25 15:20:48.795 | INFO     | __main__:log_and_logger:124 - epoch: 193 - mean_train_loss: 0.062080852687358856
+2024-12-25 15:23:38.368 | INFO     | __main__:log_and_logger:124 - epoch: 194 - val_mean_dice: 0.8549417223936568
+2024-12-25 15:23:41.154 | INFO     | __main__:log_and_logger:124 - epoch: 194 - mean_train_loss: 0.06775830686092377
+2024-12-25 15:24:59.765 | INFO     | __main__:log_and_logger:124 - epoch: 195 - mean_train_loss: 0.07051364332437515
+2024-12-25 15:26:19.534 | INFO     | __main__:log_and_logger:124 - epoch: 196 - mean_train_loss: 0.07468833774328232
+2024-12-25 15:27:34.972 | INFO     | __main__:log_and_logger:124 - epoch: 197 - mean_train_loss: 0.07200667262077332
+2024-12-25 15:28:54.874 | INFO     | __main__:log_and_logger:124 - epoch: 198 - mean_train_loss: 0.06964462250471115
+2024-12-25 15:31:43.060 | INFO     | __main__:log_and_logger:124 - epoch: 199 - val_mean_dice: 0.8404558855496969
+2024-12-25 15:31:44.489 | INFO     | __main__:log_and_logger:124 - epoch: 199 - mean_train_loss: 0.07136483490467072
+2024-12-25 15:33:02.729 | INFO     | __main__:log_and_logger:124 - epoch: 200 - mean_train_loss: 0.06250544637441635
+2024-12-25 15:34:25.024 | INFO     | __main__:log_and_logger:124 - epoch: 201 - mean_train_loss: 0.06074150651693344
+2024-12-25 15:35:40.054 | INFO     | __main__:log_and_logger:124 - epoch: 202 - mean_train_loss: 0.06385141611099243
+2024-12-25 15:36:53.546 | INFO     | __main__:log_and_logger:124 - epoch: 203 - mean_train_loss: 0.06377830356359482
+2024-12-25 15:39:45.140 | INFO     | __main__:log_and_logger:124 - epoch: 204 - val_mean_dice: 0.8510083348955959
+2024-12-25 15:39:46.738 | INFO     | __main__:log_and_logger:124 - epoch: 204 - mean_train_loss: 0.0599624440073967
+2024-12-25 15:40:59.986 | INFO     | __main__:log_and_logger:124 - epoch: 205 - mean_train_loss: 0.07147277891635895
+2024-12-25 15:42:19.416 | INFO     | __main__:log_and_logger:124 - epoch: 206 - mean_train_loss: 0.06303897500038147
+2024-12-25 15:43:37.516 | INFO     | __main__:log_and_logger:124 - epoch: 207 - mean_train_loss: 0.06309885531663895
+2024-12-25 15:44:58.591 | INFO     | __main__:log_and_logger:124 - epoch: 208 - mean_train_loss: 0.057557787746191025
+2024-12-25 15:47:58.827 | INFO     | __main__:log_and_logger:124 - epoch: 209 - val_mean_dice: 0.8199100842078527
+2024-12-25 15:48:00.257 | INFO     | __main__:log_and_logger:124 - epoch: 209 - mean_train_loss: 0.06312248855829239
+2024-12-25 15:49:20.478 | INFO     | __main__:log_and_logger:124 - epoch: 210 - mean_train_loss: 0.06943705677986145
+2024-12-25 15:50:37.874 | INFO     | __main__:log_and_logger:124 - epoch: 211 - mean_train_loss: 0.05941082537174225
+2024-12-25 15:51:58.726 | INFO     | __main__:log_and_logger:124 - epoch: 212 - mean_train_loss: 0.06332829594612122
+2024-12-25 15:53:13.912 | INFO     | __main__:log_and_logger:124 - epoch: 213 - mean_train_loss: 0.06127951666712761
+2024-12-25 15:56:03.989 | INFO     | __main__:log_and_logger:124 - epoch: 214 - val_mean_dice: 0.8288703300446894
+2024-12-25 15:56:05.698 | INFO     | __main__:log_and_logger:124 - epoch: 214 - mean_train_loss: 0.06419360637664795
+2024-12-25 15:57:25.780 | INFO     | __main__:log_and_logger:124 - epoch: 215 - mean_train_loss: 0.05769728869199753
+2024-12-25 15:58:42.352 | INFO     | __main__:log_and_logger:124 - epoch: 216 - mean_train_loss: 0.0673203095793724
+2024-12-25 15:59:55.437 | INFO     | __main__:log_and_logger:124 - epoch: 217 - mean_train_loss: 0.07747333496809006
+2024-12-25 16:01:11.098 | INFO     | __main__:log_and_logger:124 - epoch: 218 - mean_train_loss: 0.06200464814901352
+2024-12-25 16:04:04.576 | INFO     | __main__:log_and_logger:124 - epoch: 219 - val_mean_dice: 0.8450339171880236
+2024-12-25 16:04:06.024 | INFO     | __main__:log_and_logger:124 - epoch: 219 - mean_train_loss: 0.06499336659908295
+2024-12-25 16:05:23.543 | INFO     | __main__:log_and_logger:124 - epoch: 220 - mean_train_loss: 0.06172606721520424
+2024-12-25 16:06:36.040 | INFO     | __main__:log_and_logger:124 - epoch: 221 - mean_train_loss: 0.06397353857755661
+2024-12-25 16:07:52.110 | INFO     | __main__:log_and_logger:124 - epoch: 222 - mean_train_loss: 0.060432739555835724
+2024-12-25 16:09:05.178 | INFO     | __main__:log_and_logger:124 - epoch: 223 - mean_train_loss: 0.05945044383406639
+2024-12-25 16:11:53.748 | INFO     | __main__:log_and_logger:124 - epoch: 224 - val_mean_dice: 0.8445187284766387
+2024-12-25 16:11:55.372 | INFO     | __main__:log_and_logger:124 - epoch: 224 - mean_train_loss: 0.06744209676980972
+2024-12-25 16:13:15.798 | INFO     | __main__:log_and_logger:124 - epoch: 225 - mean_train_loss: 0.05788259580731392
+2024-12-25 16:14:26.888 | INFO     | __main__:log_and_logger:124 - epoch: 226 - mean_train_loss: 0.06107550486922264
+2024-12-25 16:15:51.185 | INFO     | __main__:log_and_logger:124 - epoch: 227 - mean_train_loss: 0.05688215792179108
+2024-12-25 16:17:13.021 | INFO     | __main__:log_and_logger:124 - epoch: 228 - mean_train_loss: 0.062355559319257736
+2024-12-25 16:20:14.502 | INFO     | __main__:log_and_logger:124 - epoch: 229 - val_mean_dice: 0.8520012389247615
+2024-12-25 16:20:15.944 | INFO     | __main__:log_and_logger:124 - epoch: 229 - mean_train_loss: 0.06171927601099014
+2024-12-25 16:21:32.910 | INFO     | __main__:log_and_logger:124 - epoch: 230 - mean_train_loss: 0.06440127640962601
+2024-12-25 16:22:49.630 | INFO     | __main__:log_and_logger:124 - epoch: 231 - mean_train_loss: 0.060196153819561005
+2024-12-25 16:24:11.914 | INFO     | __main__:log_and_logger:124 - epoch: 232 - mean_train_loss: 0.0630321130156517
+2024-12-25 16:25:39.960 | INFO     | __main__:log_and_logger:124 - epoch: 233 - mean_train_loss: 0.06290016323328018
+2024-12-25 16:28:28.287 | INFO     | __main__:log_and_logger:124 - epoch: 234 - val_mean_dice: 0.838697959901765
+2024-12-25 16:28:29.871 | INFO     | __main__:log_and_logger:124 - epoch: 234 - mean_train_loss: 0.0663265585899353
+2024-12-25 16:29:55.392 | INFO     | __main__:log_and_logger:124 - epoch: 235 - mean_train_loss: 0.06419690698385239
+2024-12-25 16:31:14.138 | INFO     | __main__:log_and_logger:124 - epoch: 236 - mean_train_loss: 0.06105352193117142
+2024-12-25 16:32:27.797 | INFO     | __main__:log_and_logger:124 - epoch: 237 - mean_train_loss: 0.069381944835186
+2024-12-25 16:33:45.638 | INFO     | __main__:log_and_logger:124 - epoch: 238 - mean_train_loss: 0.05820387601852417
+2024-12-25 16:36:40.131 | INFO     | __main__:log_and_logger:124 - epoch: 239 - val_mean_dice: 0.8488714197883382
+2024-12-25 16:36:41.680 | INFO     | __main__:log_and_logger:124 - epoch: 239 - mean_train_loss: 0.05511733517050743
+2024-12-25 16:37:56.065 | INFO     | __main__:log_and_logger:124 - epoch: 240 - mean_train_loss: 0.06264180690050125
+2024-12-25 16:39:10.043 | INFO     | __main__:log_and_logger:124 - epoch: 241 - mean_train_loss: 0.06110793352127075
+2024-12-25 16:40:23.379 | INFO     | __main__:log_and_logger:124 - epoch: 242 - mean_train_loss: 0.05906993895769119
+2024-12-25 16:41:37.802 | INFO     | __main__:log_and_logger:124 - epoch: 243 - mean_train_loss: 0.058947037905454636
+2024-12-25 16:44:24.240 | INFO     | __main__:log_and_logger:124 - epoch: 244 - val_mean_dice: 0.8507698050234467
+2024-12-25 16:44:25.751 | INFO     | __main__:log_and_logger:124 - epoch: 244 - mean_train_loss: 0.061323635280132294
+2024-12-25 16:45:44.513 | INFO     | __main__:log_and_logger:124 - epoch: 245 - mean_train_loss: 0.0591379776597023
+2024-12-25 16:47:01.907 | INFO     | __main__:log_and_logger:124 - epoch: 246 - mean_train_loss: 0.057603850960731506
+2024-12-25 16:48:15.927 | INFO     | __main__:log_and_logger:124 - epoch: 247 - mean_train_loss: 0.06022268161177635
+2024-12-25 16:49:36.645 | INFO     | __main__:log_and_logger:124 - epoch: 248 - mean_train_loss: 0.057876620441675186
+2024-12-25 16:52:30.259 | INFO     | __main__:log_and_logger:124 - epoch: 249 - val_mean_dice: 0.8580022338622559
+2024-12-25 16:52:33.056 | INFO     | __main__:log_and_logger:124 - epoch: 249 - mean_train_loss: 0.058775827288627625
+2024-12-25 16:53:50.292 | INFO     | __main__:log_and_logger:124 - epoch: 250 - mean_train_loss: 0.054856956005096436
+2024-12-25 16:55:09.565 | INFO     | __main__:log_and_logger:124 - epoch: 251 - mean_train_loss: 0.06401127576828003
+2024-12-25 16:56:29.444 | INFO     | __main__:log_and_logger:124 - epoch: 252 - mean_train_loss: 0.056971389800310135
+2024-12-25 16:57:52.679 | INFO     | __main__:log_and_logger:124 - epoch: 253 - mean_train_loss: 0.056186698377132416
+2024-12-25 17:00:54.271 | INFO     | __main__:log_and_logger:124 - epoch: 254 - val_mean_dice: 0.861320993086944
+2024-12-25 17:00:56.880 | INFO     | __main__:log_and_logger:124 - epoch: 254 - mean_train_loss: 0.061162546277046204
+2024-12-25 17:02:20.050 | INFO     | __main__:log_and_logger:124 - epoch: 255 - mean_train_loss: 0.05355435982346535
+2024-12-25 17:03:38.885 | INFO     | __main__:log_and_logger:124 - epoch: 256 - mean_train_loss: 0.06037908419966698
+2024-12-25 17:04:56.054 | INFO     | __main__:log_and_logger:124 - epoch: 257 - mean_train_loss: 0.058850519359111786
+2024-12-25 17:06:17.648 | INFO     | __main__:log_and_logger:124 - epoch: 258 - mean_train_loss: 0.06467142701148987
+2024-12-25 17:09:04.588 | INFO     | __main__:log_and_logger:124 - epoch: 259 - val_mean_dice: 0.8615733485203236
+2024-12-25 17:09:07.392 | INFO     | __main__:log_and_logger:124 - epoch: 259 - mean_train_loss: 0.060407835990190506
+2024-12-25 17:10:26.525 | INFO     | __main__:log_and_logger:124 - epoch: 260 - mean_train_loss: 0.06244748830795288
+2024-12-25 17:11:36.173 | INFO     | __main__:log_and_logger:124 - epoch: 261 - mean_train_loss: 0.055805306881666183
+2024-12-25 17:12:50.555 | INFO     | __main__:log_and_logger:124 - epoch: 262 - mean_train_loss: 0.05908551812171936
+2024-12-25 17:14:10.361 | INFO     | __main__:log_and_logger:124 - epoch: 263 - mean_train_loss: 0.05556870624423027
+2024-12-25 17:16:57.779 | INFO     | __main__:log_and_logger:124 - epoch: 264 - val_mean_dice: 0.8623655396513641
+2024-12-25 17:17:00.556 | INFO     | __main__:log_and_logger:124 - epoch: 264 - mean_train_loss: 0.05423349514603615
+2024-12-25 17:18:16.935 | INFO     | __main__:log_and_logger:124 - epoch: 265 - mean_train_loss: 0.061618149280548096
+2024-12-25 17:19:31.122 | INFO     | __main__:log_and_logger:124 - epoch: 266 - mean_train_loss: 0.054579392075538635
+2024-12-25 17:20:50.781 | INFO     | __main__:log_and_logger:124 - epoch: 267 - mean_train_loss: 0.05804162099957466
+2024-12-25 17:22:06.933 | INFO     | __main__:log_and_logger:124 - epoch: 268 - mean_train_loss: 0.050726987421512604
+2024-12-25 17:25:02.058 | INFO     | __main__:log_and_logger:124 - epoch: 269 - val_mean_dice: 0.8616455509327352
+2024-12-25 17:25:03.576 | INFO     | __main__:log_and_logger:124 - epoch: 269 - mean_train_loss: 0.05799156427383423
+2024-12-25 17:26:22.647 | INFO     | __main__:log_and_logger:124 - epoch: 270 - mean_train_loss: 0.05535038933157921
+2024-12-25 17:27:36.696 | INFO     | __main__:log_and_logger:124 - epoch: 271 - mean_train_loss: 0.052755407989025116
+2024-12-25 17:28:53.264 | INFO     | __main__:log_and_logger:124 - epoch: 272 - mean_train_loss: 0.06211506947875023
+2024-12-25 17:30:09.438 | INFO     | __main__:log_and_logger:124 - epoch: 273 - mean_train_loss: 0.060224853456020355
+2024-12-25 17:32:56.383 | INFO     | __main__:log_and_logger:124 - epoch: 274 - val_mean_dice: 0.8556942574990292
+2024-12-25 17:32:57.786 | INFO     | __main__:log_and_logger:124 - epoch: 274 - mean_train_loss: 0.05477386340498924
+2024-12-25 17:34:15.935 | INFO     | __main__:log_and_logger:124 - epoch: 275 - mean_train_loss: 0.05895606428384781
+2024-12-25 17:35:35.092 | INFO     | __main__:log_and_logger:124 - epoch: 276 - mean_train_loss: 0.057453256100416183
+2024-12-25 17:36:59.190 | INFO     | __main__:log_and_logger:124 - epoch: 277 - mean_train_loss: 0.05036512762308121
+2024-12-25 17:38:19.343 | INFO     | __main__:log_and_logger:124 - epoch: 278 - mean_train_loss: 0.0540955476462841
+2024-12-25 17:41:14.319 | INFO     | __main__:log_and_logger:124 - epoch: 279 - val_mean_dice: 0.858387319991986
+2024-12-25 17:41:15.745 | INFO     | __main__:log_and_logger:124 - epoch: 279 - mean_train_loss: 0.05344235897064209
+2024-12-25 17:42:33.004 | INFO     | __main__:log_and_logger:124 - epoch: 280 - mean_train_loss: 0.05834077298641205
+2024-12-25 17:43:58.531 | INFO     | __main__:log_and_logger:124 - epoch: 281 - mean_train_loss: 0.05618268996477127
+2024-12-25 17:45:15.248 | INFO     | __main__:log_and_logger:124 - epoch: 282 - mean_train_loss: 0.05319906398653984
+2024-12-25 17:46:36.270 | INFO     | __main__:log_and_logger:124 - epoch: 283 - mean_train_loss: 0.05584832280874252
+2024-12-25 17:49:24.258 | INFO     | __main__:log_and_logger:124 - epoch: 284 - val_mean_dice: 0.8505762900070598
+2024-12-25 17:49:25.707 | INFO     | __main__:log_and_logger:124 - epoch: 284 - mean_train_loss: 0.053284499794244766
+2024-12-25 17:50:41.000 | INFO     | __main__:log_and_logger:124 - epoch: 285 - mean_train_loss: 0.05040811002254486
+2024-12-25 17:51:59.239 | INFO     | __main__:log_and_logger:124 - epoch: 286 - mean_train_loss: 0.05507730320096016
+2024-12-25 17:53:21.398 | INFO     | __main__:log_and_logger:124 - epoch: 287 - mean_train_loss: 0.05363853648304939
+2024-12-25 17:54:41.036 | INFO     | __main__:log_and_logger:124 - epoch: 288 - mean_train_loss: 0.05214748904109001
+2024-12-25 17:57:32.203 | INFO     | __main__:log_and_logger:124 - epoch: 289 - val_mean_dice: 0.8584766016962628
+2024-12-25 17:57:33.715 | INFO     | __main__:log_and_logger:124 - epoch: 289 - mean_train_loss: 0.0558062307536602
+2024-12-25 17:58:52.908 | INFO     | __main__:log_and_logger:124 - epoch: 290 - mean_train_loss: 0.05594780668616295
+2024-12-25 18:00:20.192 | INFO     | __main__:log_and_logger:124 - epoch: 291 - mean_train_loss: 0.057283222675323486
+2024-12-25 18:01:41.345 | INFO     | __main__:log_and_logger:124 - epoch: 292 - mean_train_loss: 0.05367036163806915
+2024-12-25 18:03:01.250 | INFO     | __main__:log_and_logger:124 - epoch: 293 - mean_train_loss: 0.05036887153983116
+2024-12-25 18:05:56.035 | INFO     | __main__:log_and_logger:124 - epoch: 294 - val_mean_dice: 0.8568103373205911
+2024-12-25 18:05:57.407 | INFO     | __main__:log_and_logger:124 - epoch: 294 - mean_train_loss: 0.056182269006967545
+2024-12-25 18:07:14.157 | INFO     | __main__:log_and_logger:124 - epoch: 295 - mean_train_loss: 0.05008595809340477
+2024-12-25 18:08:38.138 | INFO     | __main__:log_and_logger:124 - epoch: 296 - mean_train_loss: 0.06144851818680763
+2024-12-25 18:09:58.160 | INFO     | __main__:log_and_logger:124 - epoch: 297 - mean_train_loss: 0.05130193755030632
+2024-12-25 18:11:15.281 | INFO     | __main__:log_and_logger:124 - epoch: 298 - mean_train_loss: 0.05245456099510193
+2024-12-25 18:14:03.555 | INFO     | __main__:log_and_logger:124 - epoch: 299 - val_mean_dice: 0.8611210006832455
+2024-12-25 18:14:04.985 | INFO     | __main__:log_and_logger:124 - epoch: 299 - mean_train_loss: 0.05682354420423508
+2024-12-25 18:15:25.152 | INFO     | __main__:log_and_logger:124 - epoch: 300 - mean_train_loss: 0.05677792429924011
+2024-12-25 18:16:45.895 | INFO     | __main__:log_and_logger:124 - epoch: 301 - mean_train_loss: 0.05640058591961861
+2024-12-25 18:18:04.850 | INFO     | __main__:log_and_logger:124 - epoch: 302 - mean_train_loss: 0.052961885929107666
+2024-12-25 18:19:18.025 | INFO     | __main__:log_and_logger:124 - epoch: 303 - mean_train_loss: 0.056442856788635254
+2024-12-25 18:22:12.716 | INFO     | __main__:log_and_logger:124 - epoch: 304 - val_mean_dice: 0.8564399889825534
+2024-12-25 18:22:14.250 | INFO     | __main__:log_and_logger:124 - epoch: 304 - mean_train_loss: 0.05131898820400238
+2024-12-25 18:23:42.104 | INFO     | __main__:log_and_logger:124 - epoch: 305 - mean_train_loss: 0.05886310711503029
+2024-12-25 18:25:00.919 | INFO     | __main__:log_and_logger:124 - epoch: 306 - mean_train_loss: 0.05551131069660187
+2024-12-25 18:26:22.366 | INFO     | __main__:log_and_logger:124 - epoch: 307 - mean_train_loss: 0.049486562609672546
+2024-12-25 18:27:44.339 | INFO     | __main__:log_and_logger:124 - epoch: 308 - mean_train_loss: 0.051453735679388046
+2024-12-25 18:30:38.663 | INFO     | __main__:log_and_logger:124 - epoch: 309 - val_mean_dice: 0.8574003425116341
+2024-12-25 18:30:40.078 | INFO     | __main__:log_and_logger:124 - epoch: 309 - mean_train_loss: 0.050234705209732056
+2024-12-25 18:32:02.897 | INFO     | __main__:log_and_logger:124 - epoch: 310 - mean_train_loss: 0.05770077556371689
+2024-12-25 18:33:21.013 | INFO     | __main__:log_and_logger:124 - epoch: 311 - mean_train_loss: 0.04994180053472519
+2024-12-25 18:34:46.320 | INFO     | __main__:log_and_logger:124 - epoch: 312 - mean_train_loss: 0.056274209171533585
+2024-12-25 18:36:09.381 | INFO     | __main__:log_and_logger:124 - epoch: 313 - mean_train_loss: 0.058105919510126114
+2024-12-25 18:39:06.814 | INFO     | __main__:log_and_logger:124 - epoch: 314 - val_mean_dice: 0.8498888458901396
+2024-12-25 18:39:08.405 | INFO     | __main__:log_and_logger:124 - epoch: 314 - mean_train_loss: 0.05023295804858208
+2024-12-25 18:40:26.794 | INFO     | __main__:log_and_logger:124 - epoch: 315 - mean_train_loss: 0.05131969973444939
+2024-12-25 18:41:43.916 | INFO     | __main__:log_and_logger:124 - epoch: 316 - mean_train_loss: 0.05054554343223572
+2024-12-25 18:43:05.871 | INFO     | __main__:log_and_logger:124 - epoch: 317 - mean_train_loss: 0.051898568868637085
+2024-12-25 18:44:25.517 | INFO     | __main__:log_and_logger:124 - epoch: 318 - mean_train_loss: 0.04925204813480377
+2024-12-25 18:47:18.375 | INFO     | __main__:log_and_logger:124 - epoch: 319 - val_mean_dice: 0.8486064151705552
+2024-12-25 18:47:19.856 | INFO     | __main__:log_and_logger:124 - epoch: 319 - mean_train_loss: 0.04844748601317406
+2024-12-25 18:48:43.363 | INFO     | __main__:log_and_logger:124 - epoch: 320 - mean_train_loss: 0.051711227744817734
+2024-12-25 18:50:03.451 | INFO     | __main__:log_and_logger:124 - epoch: 321 - mean_train_loss: 0.04804345965385437
+2024-12-25 18:51:19.423 | INFO     | __main__:log_and_logger:124 - epoch: 322 - mean_train_loss: 0.04854075610637665
+2024-12-25 18:52:41.610 | INFO     | __main__:log_and_logger:124 - epoch: 323 - mean_train_loss: 0.05397794768214226
+2024-12-25 18:55:43.574 | INFO     | __main__:log_and_logger:124 - epoch: 324 - val_mean_dice: 0.8531152930033084
+2024-12-25 18:55:45.021 | INFO     | __main__:log_and_logger:124 - epoch: 324 - mean_train_loss: 0.048369649797677994
+2024-12-25 18:57:04.708 | INFO     | __main__:log_and_logger:124 - epoch: 325 - mean_train_loss: 0.04985295236110687
+2024-12-25 18:58:28.944 | INFO     | __main__:log_and_logger:124 - epoch: 326 - mean_train_loss: 0.054112374782562256
+2024-12-25 18:59:46.214 | INFO     | __main__:log_and_logger:124 - epoch: 327 - mean_train_loss: 0.049225252121686935
+2024-12-25 19:01:04.540 | INFO     | __main__:log_and_logger:124 - epoch: 328 - mean_train_loss: 0.05003446340560913
+2024-12-25 19:04:04.182 | INFO     | __main__:log_and_logger:124 - epoch: 329 - val_mean_dice: 0.8552922379458323
+2024-12-25 19:04:05.644 | INFO     | __main__:log_and_logger:124 - epoch: 329 - mean_train_loss: 0.05124138668179512
+2024-12-25 19:05:25.312 | INFO     | __main__:log_and_logger:124 - epoch: 330 - mean_train_loss: 0.05830380693078041
+2024-12-25 19:06:44.972 | INFO     | __main__:log_and_logger:124 - epoch: 331 - mean_train_loss: 0.05414370819926262
+2024-12-25 19:08:03.127 | INFO     | __main__:log_and_logger:124 - epoch: 332 - mean_train_loss: 0.05447975918650627
+2024-12-25 19:09:26.164 | INFO     | __main__:log_and_logger:124 - epoch: 333 - mean_train_loss: 0.051915645599365234
+2024-12-25 19:12:13.587 | INFO     | __main__:log_and_logger:124 - epoch: 334 - val_mean_dice: 0.8540959963186955
+2024-12-25 19:12:15.015 | INFO     | __main__:log_and_logger:124 - epoch: 334 - mean_train_loss: 0.05116293206810951
+2024-12-25 19:13:37.203 | INFO     | __main__:log_and_logger:124 - epoch: 335 - mean_train_loss: 0.04605759307742119
+2024-12-25 19:15:04.187 | INFO     | __main__:log_and_logger:124 - epoch: 336 - mean_train_loss: 0.053016673773527145
+2024-12-25 19:16:23.099 | INFO     | __main__:log_and_logger:124 - epoch: 337 - mean_train_loss: 0.04754747822880745
+2024-12-25 19:17:32.982 | INFO     | __main__:log_and_logger:124 - epoch: 338 - mean_train_loss: 0.04808875918388367
+2024-12-25 19:20:06.803 | INFO     | __main__:log_and_logger:124 - epoch: 339 - val_mean_dice: 0.8537960700923577
+2024-12-25 19:20:08.117 | INFO     | __main__:log_and_logger:124 - epoch: 339 - mean_train_loss: 0.047704678028821945
+2024-12-25 19:21:27.500 | INFO     | __main__:log_and_logger:124 - epoch: 340 - mean_train_loss: 0.05008884519338608
+2024-12-25 19:22:46.735 | INFO     | __main__:log_and_logger:124 - epoch: 341 - mean_train_loss: 0.04976453259587288
+2024-12-25 19:23:56.624 | INFO     | __main__:log_and_logger:124 - epoch: 342 - mean_train_loss: 0.05092728137969971
+2024-12-25 19:25:11.146 | INFO     | __main__:log_and_logger:124 - epoch: 343 - mean_train_loss: 0.043301839381456375
+2024-12-25 19:27:38.139 | INFO     | __main__:log_and_logger:124 - epoch: 344 - val_mean_dice: 0.8557257204083726
+2024-12-25 19:27:39.468 | INFO     | __main__:log_and_logger:124 - epoch: 344 - mean_train_loss: 0.053645629435777664
+2024-12-25 19:28:44.934 | INFO     | __main__:log_and_logger:124 - epoch: 345 - mean_train_loss: 0.05138755589723587
+2024-12-25 19:29:58.950 | INFO     | __main__:log_and_logger:124 - epoch: 346 - mean_train_loss: 0.05073470249772072
+2024-12-25 19:31:10.760 | INFO     | __main__:log_and_logger:124 - epoch: 347 - mean_train_loss: 0.04404779151082039
+2024-12-25 19:32:21.892 | INFO     | __main__:log_and_logger:124 - epoch: 348 - mean_train_loss: 0.04800519719719887
+2024-12-25 19:34:42.650 | INFO     | __main__:log_and_logger:124 - epoch: 349 - val_mean_dice: 0.8558480708549421
+2024-12-25 19:34:44.012 | INFO     | __main__:log_and_logger:124 - epoch: 349 - mean_train_loss: 0.05018747225403786
+2024-12-25 19:35:55.664 | INFO     | __main__:log_and_logger:124 - epoch: 350 - mean_train_loss: 0.04733194783329964
+2024-12-25 19:37:12.522 | INFO     | __main__:log_and_logger:124 - epoch: 351 - mean_train_loss: 0.05363501235842705
+2024-12-25 19:38:25.334 | INFO     | __main__:log_and_logger:124 - epoch: 352 - mean_train_loss: 0.04838789254426956
+2024-12-25 19:39:37.271 | INFO     | __main__:log_and_logger:124 - epoch: 353 - mean_train_loss: 0.054582834243774414
+2024-12-25 19:42:07.257 | INFO     | __main__:log_and_logger:124 - epoch: 354 - val_mean_dice: 0.8510913456557319
+2024-12-25 19:42:08.544 | INFO     | __main__:log_and_logger:124 - epoch: 354 - mean_train_loss: 0.04940994083881378
+2024-12-25 19:43:25.718 | INFO     | __main__:log_and_logger:124 - epoch: 355 - mean_train_loss: 0.04960345849394798
+2024-12-25 19:44:41.532 | INFO     | __main__:log_and_logger:124 - epoch: 356 - mean_train_loss: 0.05112987011671066
+2024-12-25 19:45:52.446 | INFO     | __main__:log_and_logger:124 - epoch: 357 - mean_train_loss: 0.05022256076335907
+2024-12-25 19:47:03.081 | INFO     | __main__:log_and_logger:124 - epoch: 358 - mean_train_loss: 0.05203592777252197
+2024-12-25 19:49:34.764 | INFO     | __main__:log_and_logger:124 - epoch: 359 - val_mean_dice: 0.8507461038340505
+2024-12-25 19:49:36.027 | INFO     | __main__:log_and_logger:124 - epoch: 359 - mean_train_loss: 0.051409635692834854
+2024-12-25 19:50:43.717 | INFO     | __main__:log_and_logger:124 - epoch: 360 - mean_train_loss: 0.05465734004974365
+2024-12-25 19:51:48.511 | INFO     | __main__:log_and_logger:124 - epoch: 361 - mean_train_loss: 0.053000420331954956
+2024-12-25 19:52:56.955 | INFO     | __main__:log_and_logger:124 - epoch: 362 - mean_train_loss: 0.052116889506578445
+2024-12-25 19:54:19.131 | INFO     | __main__:log_and_logger:124 - epoch: 363 - mean_train_loss: 0.050595201551914215
+2024-12-25 19:56:42.238 | INFO     | __main__:log_and_logger:124 - epoch: 364 - val_mean_dice: 0.8518340731194863
+2024-12-25 19:56:43.478 | INFO     | __main__:log_and_logger:124 - epoch: 364 - mean_train_loss: 0.05105694755911827
+2024-12-25 19:57:52.431 | INFO     | __main__:log_and_logger:124 - epoch: 365 - mean_train_loss: 0.05182656645774841
+2024-12-25 19:59:05.019 | INFO     | __main__:log_and_logger:124 - epoch: 366 - mean_train_loss: 0.04963357001543045
+2024-12-25 20:00:14.329 | INFO     | __main__:log_and_logger:124 - epoch: 367 - mean_train_loss: 0.04884679615497589
+2024-12-25 20:01:28.167 | INFO     | __main__:log_and_logger:124 - epoch: 368 - mean_train_loss: 0.045880045741796494
+2024-12-25 20:03:55.851 | INFO     | __main__:log_and_logger:124 - epoch: 369 - val_mean_dice: 0.8523094628471881
+2024-12-25 20:03:57.140 | INFO     | __main__:log_and_logger:124 - epoch: 369 - mean_train_loss: 0.04681219533085823
+2024-12-25 20:05:10.619 | INFO     | __main__:log_and_logger:124 - epoch: 370 - mean_train_loss: 0.046522241085767746
+2024-12-25 20:06:30.049 | INFO     | __main__:log_and_logger:124 - epoch: 371 - mean_train_loss: 0.04834673926234245
+2024-12-25 20:07:43.656 | INFO     | __main__:log_and_logger:124 - epoch: 372 - mean_train_loss: 0.04660772159695625
+2024-12-25 20:08:52.143 | INFO     | __main__:log_and_logger:124 - epoch: 373 - mean_train_loss: 0.04746781289577484
+2024-12-25 20:11:12.898 | INFO     | __main__:log_and_logger:124 - epoch: 374 - val_mean_dice: 0.8539451595861465
+2024-12-25 20:11:14.169 | INFO     | __main__:log_and_logger:124 - epoch: 374 - mean_train_loss: 0.045965373516082764
+2024-12-25 20:12:24.751 | INFO     | __main__:log_and_logger:124 - epoch: 375 - mean_train_loss: 0.0467119999229908
+2024-12-25 20:13:32.629 | INFO     | __main__:log_and_logger:124 - epoch: 376 - mean_train_loss: 0.048227306455373764
+2024-12-25 20:14:45.769 | INFO     | __main__:log_and_logger:124 - epoch: 377 - mean_train_loss: 0.05316320061683655
+2024-12-25 20:15:59.783 | INFO     | __main__:log_and_logger:124 - epoch: 378 - mean_train_loss: 0.05359967052936554
+2024-12-25 20:18:18.486 | INFO     | __main__:log_and_logger:124 - epoch: 379 - val_mean_dice: 0.8540799276282389
+2024-12-25 20:18:19.745 | INFO     | __main__:log_and_logger:124 - epoch: 379 - mean_train_loss: 0.048555951565504074
+2024-12-25 20:19:28.160 | INFO     | __main__:log_and_logger:124 - epoch: 380 - mean_train_loss: 0.04788981005549431
+2024-12-25 20:20:41.123 | INFO     | __main__:log_and_logger:124 - epoch: 381 - mean_train_loss: 0.04873153194785118
+2024-12-25 20:21:52.911 | INFO     | __main__:log_and_logger:124 - epoch: 382 - mean_train_loss: 0.04883895069360733
+2024-12-25 20:23:06.449 | INFO     | __main__:log_and_logger:124 - epoch: 383 - mean_train_loss: 0.04671110212802887
+2024-12-25 20:25:36.180 | INFO     | __main__:log_and_logger:124 - epoch: 384 - val_mean_dice: 0.8535726921788106
+2024-12-25 20:25:37.423 | INFO     | __main__:log_and_logger:124 - epoch: 384 - mean_train_loss: 0.04961268603801727
+2024-12-25 20:26:44.824 | INFO     | __main__:log_and_logger:124 - epoch: 385 - mean_train_loss: 0.04830610752105713
+2024-12-25 20:27:53.878 | INFO     | __main__:log_and_logger:124 - epoch: 386 - mean_train_loss: 0.048156678676605225
+2024-12-25 20:29:01.812 | INFO     | __main__:log_and_logger:124 - epoch: 387 - mean_train_loss: 0.05040017515420914
+2024-12-25 20:30:15.527 | INFO     | __main__:log_and_logger:124 - epoch: 388 - mean_train_loss: 0.050739847123622894
+2024-12-25 20:33:14.639 | INFO     | __main__:log_and_logger:124 - epoch: 389 - val_mean_dice: 0.8534735173840696
+2024-12-25 20:33:16.193 | INFO     | __main__:log_and_logger:124 - epoch: 389 - mean_train_loss: 0.048287976533174515
+2024-12-25 20:34:26.593 | INFO     | __main__:log_and_logger:124 - epoch: 390 - mean_train_loss: 0.05003644898533821
+2024-12-25 20:35:45.824 | INFO     | __main__:log_and_logger:124 - epoch: 391 - mean_train_loss: 0.053899746388196945
+2024-12-25 20:36:52.811 | INFO     | __main__:log_and_logger:124 - epoch: 392 - mean_train_loss: 0.047662243247032166
+2024-12-25 20:38:06.298 | INFO     | __main__:log_and_logger:124 - epoch: 393 - mean_train_loss: 0.05202179402112961
+2024-12-25 20:40:28.855 | INFO     | __main__:log_and_logger:124 - epoch: 394 - val_mean_dice: 0.8535760202600311
+2024-12-25 20:40:30.202 | INFO     | __main__:log_and_logger:124 - epoch: 394 - mean_train_loss: 0.047482218593358994
+2024-12-25 20:41:43.711 | INFO     | __main__:log_and_logger:124 - epoch: 395 - mean_train_loss: 0.04619928076863289
+2024-12-25 20:43:02.102 | INFO     | __main__:log_and_logger:124 - epoch: 396 - mean_train_loss: 0.049703776836395264
+2024-12-25 20:44:12.319 | INFO     | __main__:log_and_logger:124 - epoch: 397 - mean_train_loss: 0.0552242249250412
+2024-12-25 20:45:23.543 | INFO     | __main__:log_and_logger:124 - epoch: 398 - mean_train_loss: 0.05032604932785034
+2024-12-25 20:47:51.501 | INFO     | __main__:log_and_logger:124 - epoch: 399 - val_mean_dice: 0.8528395351022482
+2024-12-25 20:47:52.829 | INFO     | __main__:log_and_logger:124 - epoch: 399 - mean_train_loss: 0.04979376867413521
